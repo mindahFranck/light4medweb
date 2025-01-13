@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 function BreadCrumb({ title }) {
 	return (
-		<div className="sofax-breadcrumb">
+		<div className="Ligh4Med-breadcrumb">
 			<div className="container">
 				<h1 className="post__title">{title}</h1>
 				<nav className="breadcrumbs">

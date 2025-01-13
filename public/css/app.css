@@ -17,7 +17,7 @@
 :root {
 	--heading-color: #0e0e0e;
 	--body-color: #3c3c3c;
-	--accent-color: #e5abf3;
+	--accent-color: #4533e9;
 	--light-bg: #f9f9fa;
 	--dark-bg: #0e0e0e;
 	--white-bg: #fff;
@@ -1917,7 +1917,7 @@ blockquote {
 }
 
 /*1.1 layout css*/
-header.sofax-header-section {
+header.Ligh4Med-header-section {
 	position: fixed;
 	z-index: 9;
 	width: 100%;
@@ -1926,12 +1926,12 @@ header.sofax-header-section {
 	transition: all 0.4s;
 }
 
-header.sofax-header-section.sticky-menu {
+header.Ligh4Med-header-section.sticky-menu {
 	box-shadow: 0 4px 80px rgba(0, 0, 0, 0.06);
 	background-color: var(--white-bg);
 }
 
-header.sofax-header-section.sticky-menu.inner-header {
+header.Ligh4Med-header-section.sticky-menu.inner-header {
 	background-color: var(--dark-bg) !important;
 }
 
@@ -1955,54 +1955,54 @@ header.sofax-header-section.sticky-menu.inner-header {
 	font-weight: 700;
 }
 
-.sofax-footer-top {
+.Ligh4Med-footer-top {
 	padding: 130px 0 90px;
 }
 @media (max-width: 991px) {
-	.sofax-footer-top {
+	.Ligh4Med-footer-top {
 		padding: 100px 0 70px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-footer-top {
+	.Ligh4Med-footer-top {
 		padding: 70px 0 50px;
 	}
 }
 
-.sofax-footer-top2 {
+.Ligh4Med-footer-top2 {
 	padding: 100px 0 60px;
 }
 @media (max-width: 991px) {
-	.sofax-footer-top2 {
+	.Ligh4Med-footer-top2 {
 		padding: 80px 0 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-footer-top2 {
+	.Ligh4Med-footer-top2 {
 		padding: 60px 0 30px;
 	}
 }
 
-.sofax-footer-wrap {
+.Ligh4Med-footer-wrap {
 	margin-right: 15px;
 }
 @media (max-width: 1199px) {
-	.sofax-footer-wrap {
+	.Ligh4Med-footer-wrap {
 		max-width: 500px;
 	}
 }
-.sofax-footer-wrap img {
+.Ligh4Med-footer-wrap img {
 	margin-bottom: 20px;
 }
-.sofax-footer-wrap p {
+.Ligh4Med-footer-wrap p {
 	margin-bottom: 24px;
 	font-size: 20px !important;
 }
-.sofax-footer-wrap.light-color {
+.Ligh4Med-footer-wrap.light-color {
 	color: var(--white-color);
 }
 @media (max-width: 1199px) {
-	.sofax-footer-wrap.ml-60 {
+	.Ligh4Med-footer-wrap.ml-60 {
 		margin-left: 0;
 		max-width: 600px;
 	}
@@ -2026,29 +2026,29 @@ header.sofax-header-section.sticky-menu.inner-header {
 	}
 }
 
-.sofax-footer-menu h5 {
+.Ligh4Med-footer-menu h5 {
 	margin-bottom: 24px;
 }
-.sofax-footer-menu ul li {
+.Ligh4Med-footer-menu ul li {
 	margin-bottom: 15px;
 }
-.sofax-footer-menu ul li:last-child {
+.Ligh4Med-footer-menu ul li:last-child {
 	margin-bottom: 0;
 }
-.sofax-footer-menu ul li a {
+.Ligh4Med-footer-menu ul li a {
 	color: var(--body-color);
 	position: relative;
 	transition: all 0.4s;
 }
 @media (max-width: 1199px) {
-	.sofax-footer-menu {
+	.Ligh4Med-footer-menu {
 		margin-top: 30px;
 	}
 }
-.sofax-footer-menu.light-color h5 {
+.Ligh4Med-footer-menu.light-color h5 {
 	color: var(--white-color);
 }
-.sofax-footer-menu.light-color ul li a {
+.Ligh4Med-footer-menu.light-color ul li a {
 	color: var(--white-color);
 }
 
@@ -2056,15 +2056,15 @@ header.sofax-header-section.sticky-menu.inner-header {
 	margin-right: 15px;
 }
 
-.sofax-footer-menu.light-color ul li a::before {
+.Ligh4Med-footer-menu.light-color ul li a::before {
 	background: var(--white-color);
 }
 
-.sofax-footer-menu ul li a:hover:before {
+.Ligh4Med-footer-menu ul li a:hover:before {
 	width: 100%;
 }
 
-.sofax-footer-menu ul li a:before {
+.Ligh4Med-footer-menu ul li a:before {
 	content: " ";
 	left: 0;
 	bottom: 0;
@@ -2075,11 +2075,11 @@ header.sofax-header-section.sticky-menu.inner-header {
 	background: var(--heading-color);
 }
 
-.sofax-footer-active {
+.Ligh4Med-footer-active {
 	margin-left: 130px;
 }
 @media (max-width: 1199px) {
-	.sofax-footer-active {
+	.Ligh4Med-footer-active {
 		margin-left: 0px;
 	}
 }
@@ -2097,104 +2097,104 @@ a.social-icon img {
 	margin-bottom: 15px;
 }
 
-.sofax-footer-bottom {
+.Ligh4Med-footer-bottom {
 	display: block;
 	padding: 30px 0;
 	border-top: 1px solid var(--light-color);
 }
-.sofax-footer-bottom.center {
+.Ligh4Med-footer-bottom.center {
 	text-align: center;
 }
-.sofax-footer-bottom p {
+.Ligh4Med-footer-bottom p {
 	margin: 0;
 }
-.sofax-footer-bottom.dark-bottom {
+.Ligh4Med-footer-bottom.dark-bottom {
 	border-top: 1px solid var(--body-color);
 }
-.sofax-footer-bottom.dark-bottom p {
+.Ligh4Med-footer-bottom.dark-bottom p {
 	color: var(--white-color);
 }
 
 @media (max-width: 991px) {
-	.sofax-footer {
+	.Ligh4Med-footer {
 		margin-left: 30px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-footer {
+	.Ligh4Med-footer {
 		margin-left: 0;
 	}
 }
 
-.sofax-footer3-wrap {
+.Ligh4Med-footer3-wrap {
 	display: flex;
 	justify-content: space-between;
 	padding: 30px 0;
 	border-top: 1px solid var(--light-color);
 }
 @media (max-width: 767px) {
-	.sofax-footer3-wrap {
+	.Ligh4Med-footer3-wrap {
 		display: block;
 	}
 }
-.sofax-footer3-text {
+.Ligh4Med-footer3-text {
 	align-items: center;
 	display: flex;
 }
 @media (max-width: 767px) {
-	.sofax-footer3-text {
+	.Ligh4Med-footer3-text {
 		display: block;
 		margin: 0 0 30px 0;
 	}
 }
-.sofax-footer3 p {
+.Ligh4Med-footer3 p {
 	line-height: 28px;
 	color: var(--grey-color);
 }
 
 @media (max-width: 991px) {
-	.sofax-footer-titlev5 {
+	.Ligh4Med-footer-titlev5 {
 		text-align: center;
 	}
 }
-.sofax-footer-titlev5 h2 {
+.Ligh4Med-footer-titlev5 h2 {
 	max-width: 760px;
 }
 @media (max-width: 1199px) {
-	.sofax-footer-titlev5 h2 {
+	.Ligh4Med-footer-titlev5 h2 {
 		max-width: 600px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-footer-titlev5 h2 {
+	.Ligh4Med-footer-titlev5 h2 {
 		max-width: 100%;
 	}
 }
 
-.sofax-footer-titlev5 {
+.Ligh4Med-footer-titlev5 {
 	padding: 100px 0;
 	border-bottom: 1px solid var(--light-color);
 }
 @media (max-width: 991px) {
-	.sofax-footer-titlev5 {
+	.Ligh4Med-footer-titlev5 {
 		padding: 80px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-footer-titlev5 {
+	.Ligh4Med-footer-titlev5 {
 		padding: 60px 0;
 	}
 }
 
 @media (max-width: 991px) {
-	.sofax-footer-title-btn-wrap {
+	.Ligh4Med-footer-title-btn-wrap {
 		display: flex;
 		justify-content: center;
 		width: 100%;
 		margin-top: 30px;
 	}
 }
-.sofax-footer-title-btn-icon {
+.Ligh4Med-footer-title-btn-icon {
 	padding: 15px;
 	border: 1px solid var(--dark-bg);
 	width: 80px;
@@ -2204,18 +2204,18 @@ a.social-icon img {
 	align-items: center;
 	justify-content: center;
 }
-.sofax-footer-title-btn-icon:hover {
+.Ligh4Med-footer-title-btn-icon:hover {
 	border: 1px solid var(--accent-color);
 	background-color: var(--accent-color);
 }
 @media (max-width: 1199px) {
-	.sofax-footer-title-btn-icon {
+	.Ligh4Med-footer-title-btn-icon {
 		width: 70px;
 		height: 70px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-footer-title-btn-icon {
+	.Ligh4Med-footer-title-btn-icon {
 		width: 60px;
 		height: 60px;
 	}
@@ -2236,8 +2236,8 @@ a.social-icon img {
 }
 
 /*1.2 components css*/
-.sofax-default-btn,
-#sofax-submit-btn {
+.Ligh4Med-default-btn,
+#Ligh4Med-submit-btn {
 	font-size: 16px;
 	line-height: 24px;
 	padding: 18px 34px;
@@ -2262,61 +2262,61 @@ a.social-icon img {
 	position: relative;
 	transform-style: preserve-3d;
 }
-.sofax-default-btn.btn-hover:hover,
-#sofax-submit-btn.btn-hover:hover {
+.Ligh4Med-default-btn.btn-hover:hover,
+#Ligh4Med-submit-btn.btn-hover:hover {
 	background: var(--dark-bg);
 	color: var(--white-color) !important;
 }
-.sofax-default-btn.sofax-header-btn,
-#sofax-submit-btn.sofax-header-btn {
+.Ligh4Med-default-btn.Ligh4Med-header-btn,
+#Ligh4Med-submit-btn.Ligh4Med-header-btn {
 	padding: 13px 36px;
 }
-.sofax-default-btn.outline-btn,
-#sofax-submit-btn.outline-btn {
+.Ligh4Med-default-btn.outline-btn,
+#Ligh4Med-submit-btn.outline-btn {
 	padding: 17px 40px;
 	background-color: transparent;
 	border: 1px solid var(--heading-color);
 	transition: all 0.4s;
 }
-.sofax-default-btn.outline-btn:hover,
-#sofax-submit-btn.outline-btn:hover {
+.Ligh4Med-default-btn.outline-btn:hover,
+#Ligh4Med-submit-btn.outline-btn:hover {
 	background: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
-.sofax-default-btn.dark-btn,
-#sofax-submit-btn.dark-btn {
+.Ligh4Med-default-btn.dark-btn,
+#Ligh4Med-submit-btn.dark-btn {
 	color: var(--white-color) !important;
 	background-color: var(--dark-bg);
 }
-.sofax-default-btn.disabled,
-.sofax-default-btn:disabled,
-#sofax-submit-btn.disabled,
-#sofax-submit-btn:disabled {
+.Ligh4Med-default-btn.disabled,
+.Ligh4Med-default-btn:disabled,
+#Ligh4Med-submit-btn.disabled,
+#Ligh4Med-submit-btn:disabled {
 	opacity: 1;
 }
-.sofax-default-btn.d-block,
-#sofax-submit-btn.d-block {
+.Ligh4Med-default-btn.d-block,
+#Ligh4Med-submit-btn.d-block {
 	width: 100%;
 }
-.sofax-default-btn.pill,
-#sofax-submit-btn.pill {
+.Ligh4Med-default-btn.pill,
+#Ligh4Med-submit-btn.pill {
 	border-radius: 50px;
 }
-.sofax-default-btn.btn-icon,
-#sofax-submit-btn.btn-icon {
+.Ligh4Med-default-btn.btn-icon,
+#Ligh4Med-submit-btn.btn-icon {
 	padding: 9px 24px;
 }
-.sofax-default-btn:focus,
-#sofax-submit-btn:focus {
+.Ligh4Med-default-btn:focus,
+#Ligh4Med-submit-btn:focus {
 	box-shadow: none;
 }
-.sofax-default-btn.pricing-btn-v4:hover,
-#sofax-submit-btn.pricing-btn-v4:hover {
+.Ligh4Med-default-btn.pricing-btn-v4:hover,
+#Ligh4Med-submit-btn.pricing-btn-v4:hover {
 	color: var(--heading-color) !important;
 	background-color: var(--accent-color);
 }
-.sofax-default-btn.pricing-btnv4:hover,
-#sofax-submit-btn.pricing-btnv4:hover {
+.Ligh4Med-default-btn.pricing-btnv4:hover,
+#Ligh4Med-submit-btn.pricing-btnv4:hover {
 	color: var(--white-color) !important;
 	background-color: var(--heading-color);
 }
@@ -2329,34 +2329,34 @@ a.social-icon img {
 	border-radius: 50px;
 }
 
-a.sofax-icon-btn {
+a.Ligh4Med-icon-btn {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 600;
 	color: var(--body-color);
 }
-a.sofax-icon-btn img {
+a.Ligh4Med-icon-btn img {
 	margin-left: 10px;
 }
 
-.sofax-service-btn {
+.Ligh4Med-service-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.sofax-blog-icon-btn {
+.Ligh4Med-blog-icon-btn {
 	font-size: 18px !important;
 	line-height: 24px !important;
 	font-weight: 700 !important;
 	color: var(--dark-bg) !important;
 	transition: all 0.4s;
 }
-.sofax-blog-icon-btn img {
+.Ligh4Med-blog-icon-btn img {
 	margin-left: 10px;
 }
 
-.sofax-hero-btn-wrap {
+.Ligh4Med-hero-btn-wrap {
 	display: flex;
 	align-items: center;
 	gap: 24px;
@@ -2365,31 +2365,31 @@ a.sofax-icon-btn img {
 	position: relative;
 }
 
-.sofax-hero5-btn {
+.Ligh4Med-hero5-btn {
 	justify-content: start !important;
 }
 @media (max-width: 991px) {
-	.sofax-hero5-btn {
+	.Ligh4Med-hero5-btn {
 		justify-content: center !important;
 	}
 }
 
-.sofax-portfolio-btn {
+.Ligh4Med-portfolio-btn {
 	text-align: center;
 	margin-top: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-btn {
+	.Ligh4Med-portfolio-btn {
 		margin-top: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-portfolio-btn {
+	.Ligh4Med-portfolio-btn {
 		margin-top: 20px;
 	}
 }
 
-.sofax-default-btn::before {
+.Ligh4Med-default-btn::before {
 	position: absolute;
 	content: "";
 	border-radius: inherit;
@@ -2404,27 +2404,27 @@ a.sofax-icon-btn img {
 	opacity: 0;
 }
 
-.sofax-default-btn .button-wraper {
+.Ligh4Med-default-btn .button-wraper {
 	transition: opacity 0.2s, transform 0.2s;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.sofax-default-btn:hover .button-wraper {
+.Ligh4Med-default-btn:hover .button-wraper {
 	transform: translateY(-150%);
 	opacity: 0;
 }
 
-.sofax-default-btn:hover::before {
+.Ligh4Med-default-btn:hover::before {
 	opacity: 1;
 	transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.sofax-default-btn:hover::after {
+.Ligh4Med-default-btn:hover::after {
 	transform: translate(0%, -50%);
 	opacity: 1;
 }
 
-.sofax-default-btn:after {
+.Ligh4Med-default-btn:after {
 	content: attr(data-text);
 	display: inline-block;
 	position: absolute;
@@ -2452,7 +2452,7 @@ a.sofax-icon-btn img {
 	padding: 13px 30px;
 }
 
-.sofax-404-bottom-btn {
+.Ligh4Med-404-bottom-btn {
 	text-align: center;
 }
 
@@ -2551,33 +2551,33 @@ textarea::placeholder {
 	opacity: 1;
 }
 
-.sofax-subscription-field {
+.Ligh4Med-subscription-field {
 	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
 }
-.sofax-subscription-field input {
+.Ligh4Med-subscription-field input {
 	border: 1px solid var(--grey-color) !important;
 }
 
-.sofax-subscription-fieldv6 {
+.Ligh4Med-subscription-fieldv6 {
 	max-width: 600px;
 	position: relative;
 }
 @media (max-width: 991px) {
-	.sofax-subscription-fieldv6 {
+	.Ligh4Med-subscription-fieldv6 {
 		text-align: center;
 		margin: 0 auto;
 	}
 }
-.sofax-subscription-fieldv6 input {
+.Ligh4Med-subscription-fieldv6 input {
 	border: 1px solid var(--grey-color) !important;
 }
-.sofax-subscription-fieldv6 p {
+.Ligh4Med-subscription-fieldv6 p {
 	margin-top: 20px;
 }
 
-button#sofax-subscription-btn {
+button#Ligh4Med-subscription-btn {
 	position: absolute;
 	top: 5px;
 	right: 5px;
@@ -2592,19 +2592,19 @@ button#sofax-subscription-btn {
 	background-color: var(--accent-color);
 	transition: all 0.4s;
 }
-button#sofax-subscription-btn:hover {
+button#Ligh4Med-subscription-btn:hover {
 	color: var(--white-color);
 	background: var(--dark-bg);
 }
 @media (max-width: 767px) {
-	button#sofax-subscription-btn {
+	button#Ligh4Med-subscription-btn {
 		position: static;
 		width: 100%;
 		margin-top: 24px;
 	}
 }
 
-.sofax-subscription-field2 input {
+.Ligh4Med-subscription-field2 input {
 	margin: 0;
 	height: 50px;
 	width: 100%;
@@ -2618,27 +2618,27 @@ button#sofax-subscription-btn:hover {
 	letter-spacing: 0.5px;
 	border: 1px solid var(--body-color) !important;
 }
-.sofax-subscription-field2 input::-webkit-input-placeholder {
+.Ligh4Med-subscription-field2 input::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input::-moz-placeholder {
+.Ligh4Med-subscription-field2 input::-moz-placeholder {
 	/* Firefox 19+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input:-ms-input-placeholder {
+.Ligh4Med-subscription-field2 input:-ms-input-placeholder {
 	/* IE 10+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input:-moz-placeholder {
+.Ligh4Med-subscription-field2 input:-moz-placeholder {
 	/* Firefox 18- */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input .sofax-footer-btn {
+.Ligh4Med-subscription-field2 input .Ligh4Med-footer-btn {
 	position: relative;
 }
 
-.sofax-subcribe-btn2 {
+.Ligh4Med-subcribe-btn2 {
 	font-weight: 700;
 	background-color: var(--accent-color);
 	border-radius: 50px;
@@ -2650,11 +2650,11 @@ button#sofax-subscription-btn:hover {
 	height: 50px;
 	transition: all 0.4s;
 }
-.sofax-subcribe-btn2:hover {
+.Ligh4Med-subcribe-btn2:hover {
 	background: var(--dark-bg);
 	color: var(--white-color);
 }
-.sofax-subcribe-btn2.subscription-btn-hover:hover {
+.Ligh4Med-subcribe-btn2.subscription-btn-hover:hover {
 	background: var(--white-color);
 	color: var(--dark-bg);
 }
@@ -2703,7 +2703,7 @@ button#sofax-subscription-btn:hover {
 }
 
 /* end form section v4 */
-.sofax-subscription-field2 input {
+.Ligh4Med-subscription-field2 input {
 	margin: 0;
 	height: 50px;
 	width: 100%;
@@ -2717,27 +2717,27 @@ button#sofax-subscription-btn:hover {
 	letter-spacing: 0.5px;
 	border: 1px solid var(--body-color) !important;
 }
-.sofax-subscription-field2 input::-webkit-input-placeholder {
+.Ligh4Med-subscription-field2 input::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input::-moz-placeholder {
+.Ligh4Med-subscription-field2 input::-moz-placeholder {
 	/* Firefox 19+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input:-ms-input-placeholder {
+.Ligh4Med-subscription-field2 input:-ms-input-placeholder {
 	/* IE 10+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input:-moz-placeholder {
+.Ligh4Med-subscription-field2 input:-moz-placeholder {
 	/* Firefox 18- */
 	color: var(--white-color);
 }
-.sofax-subscription-field2 input .sofax-footer-btn {
+.Ligh4Med-subscription-field2 input .Ligh4Med-footer-btn {
 	position: relative;
 }
 
-.sofax-subscription-field5 input {
+.Ligh4Med-subscription-field5 input {
 	margin: 0;
 	height: 50px;
 	width: 100%;
@@ -2751,31 +2751,31 @@ button#sofax-subscription-btn:hover {
 	letter-spacing: 0.5px;
 	border: 1px solid var(--body-color) !important;
 }
-.sofax-subscription-field5 input::-webkit-input-placeholder {
+.Ligh4Med-subscription-field5 input::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: var(--dark-bg);
 }
-.sofax-subscription-field5 input::-moz-placeholder {
+.Ligh4Med-subscription-field5 input::-moz-placeholder {
 	/* Firefox 19+ */
 	color: var(--dark-bg);
 }
-.sofax-subscription-field5 input:-ms-input-placeholder {
+.Ligh4Med-subscription-field5 input:-ms-input-placeholder {
 	/* IE 10+ */
 	color: var(--dark-bg);
 }
-.sofax-subscription-field5 input:-moz-placeholder {
+.Ligh4Med-subscription-field5 input:-moz-placeholder {
 	/* Firefox 18- */
 	color: var(--dark-bg);
 }
-.sofax-subscription-field5 input .sofax-footer-btn {
+.Ligh4Med-subscription-field5 input .Ligh4Med-footer-btn {
 	position: relative;
 }
 
-.sofax-subscription-field-inner {
+.Ligh4Med-subscription-field-inner {
 	position: relative;
 	margin-bottom: 30px;
 }
-.sofax-subscription-field-inner input {
+.Ligh4Med-subscription-field-inner input {
 	margin: 0;
 	height: 60px;
 	width: 100%;
@@ -2789,111 +2789,111 @@ button#sofax-subscription-btn:hover {
 	letter-spacing: 0.5px;
 	border: 1px solid var(--dark-bg) !important;
 }
-.sofax-subscription-field-inner input::-webkit-input-placeholder {
+.Ligh4Med-subscription-field-inner input::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: var(--body-color);
 }
-.sofax-subscription-field-inner input::-moz-placeholder {
+.Ligh4Med-subscription-field-inner input::-moz-placeholder {
 	/* Firefox 19+ */
 	color: var(--body-color);
 }
-.sofax-subscription-field-inner input:-ms-input-placeholder {
+.Ligh4Med-subscription-field-inner input:-ms-input-placeholder {
 	/* IE 10+ */
 	color: var(--body-color);
 }
-.sofax-subscription-field-inner input:-moz-placeholder {
+.Ligh4Med-subscription-field-inner input:-moz-placeholder {
 	/* Firefox 18- */
 	color: var(--body-color);
 }
-.sofax-subscription-field-inner .search-icon-img {
+.Ligh4Med-subscription-field-inner .search-icon-img {
 	position: absolute;
 	top: 15px;
 	right: 30px;
 }
-.sofax-subscription-field-categories {
+.Ligh4Med-subscription-field-categories {
 	border: 1px solid var(--dark-bg);
 	padding: 30px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
 @media (max-width: 445px) {
-	.sofax-subscription-field-categories {
+	.Ligh4Med-subscription-field-categories {
 		padding: 25px;
 	}
 }
-.sofax-subscription-field-categories h4 {
+.Ligh4Med-subscription-field-categories h4 {
 	margin-bottom: 24px;
 }
-.sofax-subscription-field-categories ul {
+.Ligh4Med-subscription-field-categories ul {
 	list-style: show !important;
 }
-.sofax-subscription-field-categories ul li {
+.Ligh4Med-subscription-field-categories ul li {
 	margin-bottom: 15px !important;
 }
-.sofax-subscription-field-categories ul li:last-child {
+.Ligh4Med-subscription-field-categories ul li:last-child {
 	margin-bottom: 0 !important;
 }
-.sofax-subscription-field-categories ul li a {
+.Ligh4Med-subscription-field-categories ul li a {
 	color: var(--body-color);
 	transition: all 0.3s;
 }
-.sofax-subscription-field-categories ul li a:hover {
+.Ligh4Med-subscription-field-categories ul li a:hover {
 	color: var(--accent-color);
 }
-.sofax-subscription-field-post {
+.Ligh4Med-subscription-field-post {
 	border: 1px solid var(--dark-bg);
 	padding: 30px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
-.sofax-subscription-field-post h4 {
+.Ligh4Med-subscription-field-post h4 {
 	margin-bottom: 24px;
 }
-.sofax-subscription-field-post .title-post-thumb {
+.Ligh4Med-subscription-field-post .title-post-thumb {
 	display: flex;
 	gap: 15px;
 	align-items: center;
 	margin-bottom: 15px;
 }
-.sofax-subscription-field-post .title-post-img {
+.Ligh4Med-subscription-field-post .title-post-img {
 	flex-shrink: 0;
 	width: 130px;
 	height: 100px;
 }
-.sofax-subscription-field-post .title-post-img img {
+.Ligh4Med-subscription-field-post .title-post-img img {
 	width: 100%;
 	height: 100%;
 }
-.sofax-subscription-field-post .title-post-content ul li {
+.Ligh4Med-subscription-field-post .title-post-content ul li {
 	font-size: 14px;
 	line-height: 16px;
 	margin-bottom: 10px;
 	color: var(--body-color);
 }
-.sofax-subscription-field-group {
+.Ligh4Med-subscription-field-group {
 	border: 1px solid var(--dark-bg);
 	padding: 30px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
-.sofax-subscription-field-group h4 {
+.Ligh4Med-subscription-field-group h4 {
 	margin-bottom: 24px;
 }
-.sofax-subscription-field-group a {
+.Ligh4Med-subscription-field-group a {
 	margin: 0 5px 10px 0;
 	font-size: 18px !important;
 	line-height: 24px;
 	padding: 13px 22px !important;
 }
-.sofax-subscription-field-blog-inner-footer {
+.Ligh4Med-subscription-field-blog-inner-footer {
 	background: var(--dark-bg);
 	padding: 30px;
 	border-radius: 20px;
 }
-.sofax-subscription-field-blog-inner-footer h4 {
+.Ligh4Med-subscription-field-blog-inner-footer h4 {
 	margin-bottom: 24px;
 }
-.sofax-subscription-field-inner-button input {
+.Ligh4Med-subscription-field-inner-button input {
 	border: 1px solid var(--light-color) !important;
 	color: var(--white-color) !important;
 	font-size: 18px !important;
@@ -2901,24 +2901,24 @@ button#sofax-subscription-btn:hover {
 	background: transparent !important;
 	font-weight: 400;
 }
-.sofax-subscription-field-inner-button input::-webkit-input-placeholder {
+.Ligh4Med-subscription-field-inner-button input::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: var(--white-color);
 }
-.sofax-subscription-field-inner-button input::-moz-placeholder {
+.Ligh4Med-subscription-field-inner-button input::-moz-placeholder {
 	/* Firefox 19+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field-inner-button input:-ms-input-placeholder {
+.Ligh4Med-subscription-field-inner-button input:-ms-input-placeholder {
 	/* IE 10+ */
 	color: var(--white-color);
 }
-.sofax-subscription-field-inner-button input:-moz-placeholder {
+.Ligh4Med-subscription-field-inner-button input:-moz-placeholder {
 	/* Firefox 18- */
 	color: var(--white-color);
 }
 
-.sofax-career-details-form {
+.Ligh4Med-career-details-form {
 	padding: 40px 30px;
 	border-radius: 20px;
 	margin-bottom: 20px;
@@ -2926,30 +2926,30 @@ button#sofax-subscription-btn:hover {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
 @media (max-width: 991px) {
-	.sofax-career-details-form {
+	.Ligh4Med-career-details-form {
 		margin-top: 40px;
 	}
 }
-.sofax-career-details-form h3 {
+.Ligh4Med-career-details-form h3 {
 	margin-bottom: 30px;
 }
-.sofax-career-details-form-box {
+.Ligh4Med-career-details-form-box {
 	margin-bottom: 24px;
 }
-.sofax-career-details-form-box:last-child {
+.Ligh4Med-career-details-form-box:last-child {
 	margin-bottom: 0;
 }
-.sofax-career-details-form-box h4 {
+.Ligh4Med-career-details-form-box h4 {
 	margin-bottom: 15px;
 }
-.sofax-career-details-form-box input {
+.Ligh4Med-career-details-form-box input {
 	border: 1px solid var(--grey-color) !important;
 	border-radius: 50px;
 	outline: none;
 	color: var(--body-color);
 	font-weight: 400;
 }
-.sofax-career-details-form-box textarea {
+.Ligh4Med-career-details-form-box textarea {
 	border: 1px solid var(--grey-color) !important;
 	border-radius: 15px;
 	font-weight: 400;
@@ -2969,21 +2969,21 @@ button#sofax-subscription-btn:hover {
 	}
 }
 
-.sofax-form-header {
+.Ligh4Med-form-header {
 	background: var(--dark-bg);
 }
-.sofax-form-header img {
+.Ligh4Med-form-header img {
 	padding: 20px 0;
 }
-.sofax-form-header-logo {
+.Ligh4Med-form-header-logo {
 	text-align: center;
 }
 
-.sofax-form-field-box {
+.Ligh4Med-form-field-box {
 	max-width: 67%;
 	margin: 0 auto;
 }
-.sofax-form-field-box h2 {
+.Ligh4Med-form-field-box h2 {
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -2996,11 +2996,11 @@ button#sofax-subscription-btn:hover {
 	z-index: 2;
 }
 
-.sofax-form-content1 p {
+.Ligh4Med-form-content1 p {
 	max-width: 580px;
 	margin-bottom: 20px;
 }
-.sofax-form-content1 span {
+.Ligh4Med-form-content1 span {
 	font-weight: 700;
 }
 
@@ -3095,22 +3095,22 @@ button#sofax-subscription-btn:hover {
 	font-weight: 700;
 }
 
-.sofax-countdown-content {
+.Ligh4Med-countdown-content {
 	margin-top: 80px !important;
 	padding-bottom: 0 !important;
 }
 @media (max-width: 991px) {
-	.sofax-countdown-content {
+	.Ligh4Med-countdown-content {
 		margin-top: 60px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-countdown-content {
+	.Ligh4Med-countdown-content {
 		margin-top: 40px;
 	}
 }
 
-.sofax-countdown-bottom-text {
+.Ligh4Med-countdown-bottom-text {
 	text-align: center;
 	margin-top: 15px;
 }
@@ -3124,23 +3124,23 @@ button#sofax-subscription-btn:hover {
 	cursor: pointer;
 }
 
-.sofax-breadcrumb {
+.Ligh4Med-breadcrumb {
 	text-align: center;
 	padding: 195px 0 130px;
 	background-color: var(--dark-bg);
 }
 @media (max-width: 991px) {
-	.sofax-breadcrumb {
+	.Ligh4Med-breadcrumb {
 		padding: 170px 0 100px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-breadcrumb {
+	.Ligh4Med-breadcrumb {
 		padding: 170px 0 80px;
 	}
 }
 @media (max-width: 575px) {
-	.sofax-breadcrumb {
+	.Ligh4Med-breadcrumb {
 		padding: 130px 0 80px;
 	}
 }
@@ -3197,33 +3197,33 @@ h1.post__title {
 	color: #fdfde1;
 }
 
-.sofax-navigation {
+.Ligh4Med-navigation {
 	margin-top: 80px;
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-navigation {
+	.Ligh4Med-navigation {
 		margin: 60px 0 40px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-navigation {
+	.Ligh4Med-navigation {
 		margin: 40px 0 30px 0;
 	}
 }
-.sofax-navigation .pagination {
+.Ligh4Med-navigation .pagination {
 	justify-content: center;
 }
 
-.sofax-navigation span.current,
+.Ligh4Med-navigation span.current,
 .page-links .current {
 	cursor: not-allowed;
 	background-color: var(--accent-color);
 	color: var(--heading-color);
 }
 
-.sofax-navigation a,
-.sofax-navigation span,
+.Ligh4Med-navigation a,
+.Ligh4Med-navigation span,
 .page-links a,
 .page-links span {
 	height: 50px;
@@ -3240,109 +3240,109 @@ h1.post__title {
 	background: var(--light-bg);
 }
 
-.sofax-navigation a:hover,
+.Ligh4Med-navigation a:hover,
 .page-links a:hover {
 	background-color: var(--accent-color);
 	color: var(--heading-color);
 }
 
-.sofax-hero-section {
+.Ligh4Med-hero-section {
 	padding-top: 190px;
 }
 @media (max-width: 991px) {
-	.sofax-hero-section {
+	.Ligh4Med-hero-section {
 		padding-top: 140px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-section {
+	.Ligh4Med-hero-section {
 		padding-top: 120px;
 	}
 }
 @media (max-width: 575px) {
-	.sofax-hero-section {
+	.Ligh4Med-hero-section {
 		padding-top: 100px;
 	}
 }
-.sofax-hero-content span {
+.Ligh4Med-hero-content span {
 	margin-right: 12%;
 }
-.sofax-hero-content.center {
+.Ligh4Med-hero-content.center {
 	text-align: center;
 	max-width: 1074px;
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
 @media (max-width: 1199px) {
-	.sofax-hero-content.center {
+	.Ligh4Med-hero-content.center {
 		max-width: 700px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-hero-content.center {
+	.Ligh4Med-hero-content.center {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-content.center {
+	.Ligh4Med-hero-content.center {
 		margin-bottom: 30px;
 	}
 }
-.sofax-hero-content.center.max-width-medium {
+.Ligh4Med-hero-content.center.max-width-medium {
 	text-align: center;
 	max-width: 1100px;
 	margin: 0 auto;
 }
-.sofax-hero-content.center.max-width-large {
+.Ligh4Med-hero-content.center.max-width-large {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.sofax-hero-content.center-center {
+.Ligh4Med-hero-content.center-center {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
 @media (max-width: 991px) {
-	.sofax-hero-content.center-center {
+	.Ligh4Med-hero-content.center-center {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-content.center-center {
+	.Ligh4Med-hero-content.center-center {
 		margin-bottom: 30px;
 	}
 }
-.sofax-hero-content p {
+.Ligh4Med-hero-content p {
 	font-size: 20px;
 }
 @media (max-width: 991px) {
-	.sofax-hero-content {
+	.Ligh4Med-hero-content {
 		text-align: center;
 	}
 }
 @media (max-width: 991px) and (max-width: 1199px) {
-	.sofax-hero-content {
+	.Ligh4Med-hero-content {
 		max-width: 650px;
 		margin: 0 auto;
 	}
 }
 
-.sofax-rating-icon {
+.Ligh4Med-rating-icon {
 	text-align: center;
 	padding-top: 15px;
 }
-.sofax-rating-icon ul li {
+.Ligh4Med-rating-icon ul li {
 	display: inline-block;
 	font-size: 18px;
 	line-height: 28px;
 }
-.sofax-rating-icon ul li:last-child {
+.Ligh4Med-rating-icon ul li:last-child {
 	margin-left: 5px;
 }
 
-.sofax-app-wrap {
+.Ligh4Med-app-wrap {
 	display: flex;
 	align-items: center;
 	gap: 24px;
@@ -3350,7 +3350,7 @@ h1.post__title {
 	position: relative;
 }
 @media (max-width: 991px) {
-	.sofax-app-wrap {
+	.Ligh4Med-app-wrap {
 		justify-content: center;
 	}
 }
@@ -3414,12 +3414,12 @@ h1.post__title {
 	width: 100%;
 }
 
-.sofax_screenfix_right {
+.Ligh4Med_screenfix_right {
 	margin-right: calc((-100vw + 100%) / 2);
 	max-width: 1610px;
 }
 @media (max-width: 991px) {
-	.sofax_screenfix_right {
+	.Ligh4Med_screenfix_right {
 		max-width: 100%;
 		margin-right: auto;
 	}
@@ -3435,16 +3435,16 @@ h1.post__title {
 	}
 }
 
-.sofax-hero-thumb8 {
+.Ligh4Med-hero-thumb8 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-hero-thumb8 {
+	.Ligh4Med-hero-thumb8 {
 		margin-top: 50px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-thumb8 {
+	.Ligh4Med-hero-thumb8 {
 		margin-top: 30px;
 	}
 }
@@ -3490,13 +3490,13 @@ h1.post__title {
 }
 
 @media (max-width: 991px) {
-	.sofax-hero-content-v10 {
+	.Ligh4Med-hero-content-v10 {
 		text-align: center;
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-content-v10 {
+	.Ligh4Med-hero-content-v10 {
 		margin-bottom: 30px;
 	}
 }
@@ -3531,11 +3531,11 @@ h1.post__title {
 		opacity: 1;
 	}
 }
-.sofax-section-padding2 {
+.Ligh4Med-section-padding2 {
 	width: 100%;
 }
 
-.sofax-counter-wrap {
+.Ligh4Med-counter-wrap {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -3543,61 +3543,61 @@ h1.post__title {
 	text-align: center;
 }
 @media (max-width: 767px) {
-	.sofax-counter-wrap {
+	.Ligh4Med-counter-wrap {
 		justify-content: center;
 	}
 }
-.sofax-counter-data h2 {
+.Ligh4Med-counter-data h2 {
 	color: var(--white-bg);
 }
-.sofax-counter-data p {
+.Ligh4Med-counter-data p {
 	color: var(--white-bg);
 }
 
-.sofax-counter-wrap-v5 {
+.Ligh4Med-counter-wrap-v5 {
 	display: flex;
 	gap: 38px;
 	justify-content: space-between;
 }
 @media (max-width: 767px) {
-	.sofax-counter-wrap-v5 {
+	.Ligh4Med-counter-wrap-v5 {
 		display: block;
 		text-align: center;
 	}
 }
-.sofax-counter-wrap-v5 h2 {
+.Ligh4Med-counter-wrap-v5 h2 {
 	margin-bottom: 5px !important;
 }
 @media (max-width: 991px) {
-	.sofax-counter-data-v5 h2 {
+	.Ligh4Med-counter-data-v5 h2 {
 		font-size: 60px !important;
 		line-height: 65px;
 		margin: 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-counter-data-v5 h2 {
+	.Ligh4Med-counter-data-v5 h2 {
 		margin: 0 !important;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-counter-data-v5 {
+	.Ligh4Med-counter-data-v5 {
 		margin-bottom: 20px;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-counter-data-v5 {
+	.Ligh4Med-counter-data-v5 {
 		margin-bottom: 15px;
 	}
 }
 
-.sofax-countdown-wrap {
+.Ligh4Med-countdown-wrap {
 	display: flex;
 	gap: 24px;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.sofax-countdown-item {
+.Ligh4Med-countdown-item {
 	background-color: #ffffff;
 	border-radius: 10px 10px 10px 10px;
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.08);
@@ -3608,7 +3608,7 @@ h1.post__title {
 	font-weight: 700;
 	color: var(--dark-bg);
 }
-.sofax-countdown-item p {
+.Ligh4Med-countdown-item p {
 	text-align: center;
 	color: var(--accent-color);
 	font-weight: 600;
@@ -3650,29 +3650,29 @@ h1.post__title {
 	}
 }
 
-.sofax-counter-wrapperv7 {
+.Ligh4Med-counter-wrapperv7 {
 	display: flex;
 	gap: 40px;
 }
 @media (max-width: 991px) {
-	.sofax-counter-wrapperv7 {
+	.Ligh4Med-counter-wrapperv7 {
 		margin-top: 40px;
 		justify-content: center;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-counter-wrapperv7 {
+	.Ligh4Med-counter-wrapperv7 {
 		display: block;
 	}
 }
-.sofax-counter-data-v7 {
+.Ligh4Med-counter-data-v7 {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 	margin-bottom: 24px;
 	padding: 30px;
 	border-radius: 5px;
 	text-align: center;
 }
-.sofax-counter-data-v7 h2 {
+.Ligh4Med-counter-data-v7 h2 {
 	margin-bottom: 5px !important;
 }
 
@@ -3728,26 +3728,26 @@ h1.post__title {
 	}
 }
 
-.sofax-team-member-wrap {
+.Ligh4Med-team-member-wrap {
 	margin-bottom: 24px;
 }
-.sofax-team-member-img {
+.Ligh4Med-team-member-img {
 	margin-bottom: 24px;
 }
-.sofax-team-member-img img {
+.Ligh4Med-team-member-img img {
 	width: 100%;
 }
-.sofax-team-member-content {
+.Ligh4Med-team-member-content {
 	text-align: center;
 }
-.sofax-team-member-content p {
+.Ligh4Med-team-member-content p {
 	color: var(--body-color);
 }
-.sofax-team-member-aboutus {
+.Ligh4Med-team-member-aboutus {
 	margin-top: 120px;
 }
 @media (max-width: 991px) {
-	.sofax-team-member-aboutus {
+	.Ligh4Med-team-member-aboutus {
 		margin-top: 0;
 	}
 }
@@ -3791,20 +3791,20 @@ h1.post__title {
 	align-items: center;
 }
 
-.sofax-member-experience {
+.Ligh4Med-member-experience {
 	margin-top: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-member-experience {
+	.Ligh4Med-member-experience {
 		margin-top: 60px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-member-experience {
+	.Ligh4Med-member-experience {
 		margin-top: 40px;
 	}
 }
-.sofax-member-experience h3 {
+.Ligh4Med-member-experience h3 {
 	margin-bottom: 30px;
 }
 
@@ -3812,24 +3812,24 @@ h1.post__title {
 	margin-left: 0 !important;
 }
 
-.sofax-member-skill-wrap {
+.Ligh4Med-member-skill-wrap {
 	margin-left: 60px;
 }
 @media (max-width: 991px) {
-	.sofax-member-skill-wrap {
+	.Ligh4Med-member-skill-wrap {
 		margin-left: 0;
 		margin-top: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-member-skill-wrap {
+	.Ligh4Med-member-skill-wrap {
 		margin-top: 30px;
 	}
 }
-.sofax-member-bar {
+.Ligh4Med-member-bar {
 	margin-bottom: 10px;
 }
-.sofax-member-progress-line {
+.Ligh4Med-member-progress-line {
 	position: relative;
 	height: 10px;
 	width: 550px;
@@ -3840,15 +3840,15 @@ h1.post__title {
 	animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 	margin-bottom: 20px;
 }
-.sofax-member-progress-line:last-child {
+.Ligh4Med-member-progress-line:last-child {
 	margin-bottom: 0;
 }
 @media (max-width: 767px) {
-	.sofax-member-progress-line {
+	.Ligh4Med-member-progress-line {
 		width: 100%;
 	}
 }
-.sofax-member-progress-line h5 {
+.Ligh4Med-member-progress-line h5 {
 	position: absolute;
 	background: var(--accent-color);
 	height: 100%;
@@ -3857,7 +3857,7 @@ h1.post__title {
 	transform-origin: left;
 	animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
-.sofax-member-progress-line h5::before {
+.Ligh4Med-member-progress-line h5::before {
 	position: absolute;
 	content: "";
 	height: 0;
@@ -3869,7 +3869,7 @@ h1.post__title {
 	border-right-width: 0px;
 	border-top-style: #f0f0f0;
 }
-.sofax-member-progress-line h5::after {
+.Ligh4Med-member-progress-line h5::after {
 	position: absolute;
 	right: -32px;
 	top: -30px;
@@ -3879,25 +3879,25 @@ h1.post__title {
 	padding: 1px 8px;
 	border-radius: 3px;
 }
-.sofax-member-progress-line .html {
+.Ligh4Med-member-progress-line .html {
 	width: 87%;
 }
-.sofax-member-progress-line .html::after {
+.Ligh4Med-member-progress-line .html::after {
 	content: "87%";
 }
-.sofax-member-progress-line .css {
+.Ligh4Med-member-progress-line .css {
 	width: 90%;
 }
-.sofax-member-progress-line .css::after {
+.Ligh4Med-member-progress-line .css::after {
 	content: "90%";
 }
-.sofax-member-progress-line .js {
+.Ligh4Med-member-progress-line .js {
 	width: 60%;
 }
-.sofax-member-progress-line .js::after {
+.Ligh4Med-member-progress-line .js::after {
 	content: "60%";
 }
-.sofax-member h3 {
+.Ligh4Med-member h3 {
 	margin-bottom: 30px;
 }
 
@@ -3906,59 +3906,59 @@ h1.post__title {
 		transform: scaleX(1);
 	}
 }
-.sofax-iconbox-wrap {
+.Ligh4Med-iconbox-wrap {
 	border-radius: 10px;
 	background-color: var(--white-bg);
 	padding: 30px;
 	margin-bottom: 24px;
 	transition: all 0.4s;
 }
-.sofax-iconbox-wrap:hover {
+.Ligh4Med-iconbox-wrap:hover {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
-.sofax-iconbox-icon {
+.Ligh4Med-iconbox-icon {
 	margin-bottom: 30px;
 }
-.sofax-iconbox-icon.content-v5 {
+.Ligh4Med-iconbox-icon.content-v5 {
 	margin-bottom: 0;
 }
-.sofax-iconbox-data h4 {
+.Ligh4Med-iconbox-data h4 {
 	margin-bottom: 15px;
 }
-.sofax-iconbox-data p {
+.Ligh4Med-iconbox-data p {
 	font-size: 20px;
 }
-.sofax-iconbox-data.content-v5 h4 {
+.Ligh4Med-iconbox-data.content-v5 h4 {
 	margin-bottom: 0;
 	text-align: left;
 }
-.sofax-iconbox-wrap2 {
+.Ligh4Med-iconbox-wrap2 {
 	display: flex;
 	gap: 12px;
 	margin-bottom: 24px;
 	text-align: left;
 }
-.sofax-iconbox-wrap2:last-child {
+.Ligh4Med-iconbox-wrap2:last-child {
 	margin-bottom: 0;
 }
-.sofax-iconbox-icon2 {
+.Ligh4Med-iconbox-icon2 {
 	flex-shrink: 0;
 }
-.sofax-iconbox-data2 h5 {
+.Ligh4Med-iconbox-data2 h5 {
 	margin-bottom: 5px;
 }
-.sofax-iconbox-data2 h4 {
+.Ligh4Med-iconbox-data2 h4 {
 	margin-bottom: 15px;
 }
-.sofax-iconbox-data2 a {
+.Ligh4Med-iconbox-data2 a {
 	color: var(--white-color);
 	font-size: 20px;
 }
-.sofax-iconbox-data2 a:last-child {
+.Ligh4Med-iconbox-data2 a:last-child {
 	margin-bottom: 0;
 }
 
-.sofax-list-icon-iconv6 ul li {
+.Ligh4Med-list-icon-iconv6 ul li {
 	font-size: 23px;
 	font-weight: 700;
 	line-height: 32px;
@@ -3966,11 +3966,11 @@ h1.post__title {
 	color: #0e0e0e;
 	margin-bottom: 16px;
 }
-.sofax-list-icon-iconv6 ul li img {
+.Ligh4Med-list-icon-iconv6 ul li img {
 	margin-right: 15px;
 }
 
-.sofax-popup-video {
+.Ligh4Med-popup-video {
 	color: var(--white-bg);
 	background-color: #0e0e0e;
 	font-weight: 700;
@@ -3980,15 +3980,15 @@ h1.post__title {
 	border-radius: 50px;
 	display: inline-block;
 }
-.sofax-popup-video:hover {
+.Ligh4Med-popup-video:hover {
 	color: var(--white-bg);
 }
-.sofax-popup-video img {
+.Ligh4Med-popup-video img {
 	margin-right: 10px;
 	margin-bottom: 2px;
 }
 
-.sofax-aboutus-thumb .sofax-popup-video3 {
+.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 {
 	top: 35%;
 	left: 45%;
 	text-align: center;
@@ -3997,30 +3997,30 @@ h1.post__title {
 	animation: animName 10s linear infinite;
 }
 @media (max-width: 1199px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 {
 		top: 36%;
 		left: 42%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 {
 		top: 35%;
 		left: 40%;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 {
 		left: 30%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 {
 		text-align: center;
 		top: 35%;
 		left: 35%;
 	}
 }
-.sofax-aboutus-thumb .sofax-popup-video3 img {
+.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 img {
 	background: var(--white-color);
 	border: 2px solid var(--dark-bg);
 	border-radius: 100px;
@@ -4028,27 +4028,27 @@ h1.post__title {
 	box-shadow: none !important;
 }
 @media (max-width: 1199px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 img {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 img {
 		width: 70%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 img {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 img {
 		width: 60%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 img {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 img {
 		width: 45%;
 	}
 }
 @media (max-width: 525px) {
-	.sofax-aboutus-thumb .sofax-popup-video3 img {
+	.Ligh4Med-aboutus-thumb .Ligh4Med-popup-video3 img {
 		width: 30%;
 	}
 }
 
-.sofax-aboutus-thumb .play-btn2 img {
+.Ligh4Med-aboutus-thumb .play-btn2 img {
 	box-shadow: none !important;
 	position: absolute;
 	top: 48%;
@@ -4056,20 +4056,20 @@ h1.post__title {
 	transform: translate(-50%, -50%);
 }
 @media (max-width: 1199px) {
-	.sofax-aboutus-thumb .play-btn2 img {
+	.Ligh4Med-aboutus-thumb .play-btn2 img {
 		left: 50%;
 		top: 49%;
 		width: 20px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-aboutus-thumb .play-btn2 img {
+	.Ligh4Med-aboutus-thumb .play-btn2 img {
 		left: 51%;
 		width: 15px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-aboutus-thumb .play-btn2 img {
+	.Ligh4Med-aboutus-thumb .play-btn2 img {
 		left: 50%;
 		width: 12px;
 	}
@@ -4079,21 +4079,21 @@ h1.post__title {
 	width: 25px;
 }
 
-.sofax-testimonial-rating ul li {
+.Ligh4Med-testimonial-rating ul li {
 	display: inline-block;
 }
 
-.sofax-testimonial-content {
+.Ligh4Med-testimonial-content {
 	border: 1px solid var(--light-color2);
 	padding: 35px;
 	border-radius: 10px;
 	direction: ltr;
 }
-.sofax-testimonial-data p {
+.Ligh4Med-testimonial-data p {
 	margin-bottom: 20px;
 	font-size: 20px;
 }
-.sofax-testimonial-author {
+.Ligh4Med-testimonial-author {
 	display: flex;
 	gap: 10px;
 }
@@ -4105,27 +4105,27 @@ h1.post__title {
 	margin: 0;
 }
 
-.sofax-testimonial-slider .slick-slide {
+.Ligh4Med-testimonial-slider .slick-slide {
 	margin: 0 12px;
 }
 
-.sofax-testimonial-slider-2 {
+.Ligh4Med-testimonial-slider-2 {
 	margin-top: 40px;
 }
 
-.sofax-testimonial-slider-2 .slick-slide {
+.Ligh4Med-testimonial-slider-2 .slick-slide {
 	margin: 0 12px;
 }
 
-.sofax-testimonial-rating {
+.Ligh4Med-testimonial-rating {
 	margin-bottom: 30px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-rating {
+	.Ligh4Med-testimonial-rating {
 		margin-bottom: 20px;
 	}
 }
-.sofax-testimonial-rating ul li {
+.Ligh4Med-testimonial-rating ul li {
 	display: inline-block;
 }
 
@@ -4150,17 +4150,17 @@ h1.post__title {
 	padding: 5px;
 }
 
-.sofax-testimonial-2column-slider .sofax-t-next:hover,
-.sofax-testimonial-2column-slider .sofax-t-prev svg {
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-next:hover,
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev svg {
 	background-color: var(--green-bg);
 }
 
-.sofax-testimonial-2column-slider .sofax-t-prev:hover {
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev:hover {
 	background-color: var(--green-bg);
 }
 
-.sofax-testimonial-2column-slider .sofax-t-next,
-.sofax-testimonial-2column-slider .sofax-t-prev {
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-next,
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev {
 	left: 76%;
 	width: 50px;
 	height: 50px;
@@ -4179,45 +4179,45 @@ h1.post__title {
 	border-radius: 3px;
 }
 @media (max-width: 1399px) {
-	.sofax-testimonial-2column-slider .sofax-t-next,
-	.sofax-testimonial-2column-slider .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev {
 		left: 75%;
 		bottom: 15px;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-2column-slider .sofax-t-next,
-	.sofax-testimonial-2column-slider .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev {
 		left: 72%;
 		bottom: 13px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-2column-slider .sofax-t-next,
-	.sofax-testimonial-2column-slider .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev {
 		display: none !important;
 	}
 }
 
-.sofax-testimonial-2column-slider .sofax-t-prev {
+.Ligh4Med-testimonial-2column-slider .Ligh4Med-t-prev {
 	left: auto;
 	right: 15%;
 	background-image: url(../images/v2/rightarrow.svg);
 	background-color: var(--light-color);
 }
 
-.sofax-testimonial-slider-content p {
+.Ligh4Med-testimonial-slider-content p {
 	font-size: 35px;
 	line-height: 45px;
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-slider-content p {
+	.Ligh4Med-testimonial-slider-content p {
 		font-size: 28px;
 		line-height: 36px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-slider-content p {
+	.Ligh4Med-testimonial-slider-content p {
 		font-size: 25px;
 		line-height: 32px;
 	}
@@ -4227,17 +4227,17 @@ h1.post__title {
 	font-size: 18px;
 }
 
-.sofax-testimonial-2column-wrap .sofax-t-next:hover,
-.sofax-testimonial-2column-wrap .sofax-t-prev svg {
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-next:hover,
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev svg {
 	background-color: var(--green-bg);
 }
 
-.sofax-testimonial-2column-wrap .sofax-t-prev:hover {
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev:hover {
 	background-color: var(--green-bg);
 }
 
-.sofax-testimonial-2column-wrap .sofax-t-next,
-.sofax-testimonial-2column-wrap .sofax-t-prev {
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-next,
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev {
 	left: 76%;
 	width: 50px;
 	height: 50px;
@@ -4255,51 +4255,51 @@ h1.post__title {
 	border-radius: 3px;
 }
 @media (max-width: 1399px) {
-	.sofax-testimonial-2column-wrap .sofax-t-next,
-	.sofax-testimonial-2column-wrap .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev {
 		left: 75%;
 		bottom: 15px;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-2column-wrap .sofax-t-next,
-	.sofax-testimonial-2column-wrap .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev {
 		left: 72%;
 		bottom: 13px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-2column-wrap .sofax-t-next,
-	.sofax-testimonial-2column-wrap .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev {
 		display: none !important;
 	}
 }
 
-.sofax-testimonial-2column-wrap .sofax-t-prev {
+.Ligh4Med-testimonial-2column-wrap .Ligh4Med-t-prev {
 	left: auto;
 	right: 15%;
 	background-image: url(../images/v2/rightarrow.svg);
 	background-color: var(--light-color);
 }
 
-.sofax-testimonial-slider-content p {
+.Ligh4Med-testimonial-slider-content p {
 	font-size: 30px;
 	line-height: 40px;
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-slider-content p {
+	.Ligh4Med-testimonial-slider-content p {
 		font-size: 25px;
 		line-height: 32px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-slider-content p {
+	.Ligh4Med-testimonial-slider-content p {
 		font-size: 30px;
 		line-height: 40px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-slider-content p {
+	.Ligh4Med-testimonial-slider-content p {
 		font-size: 24px;
 		line-height: 32px;
 	}
@@ -4309,47 +4309,47 @@ h1.post__title {
 	font-size: 18px;
 }
 
-.sofax-testimonial-slider-nav {
+.Ligh4Med-testimonial-slider-nav {
 	position: absolute;
 	left: -30px;
 	top: 100px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-slider-nav {
+	.Ligh4Med-testimonial-slider-nav {
 		top: 20%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-slider-nav {
+	.Ligh4Med-testimonial-slider-nav {
 		left: 0;
 		top: 5%;
 	}
 }
-.sofax-testimonial-slider-nav .slick-list {
+.Ligh4Med-testimonial-slider-nav .slick-list {
 	overflow: inherit;
 }
-.sofax-testimonial-slider-nav .slick-slide {
+.Ligh4Med-testimonial-slider-nav .slick-slide {
 	width: 57px !important;
 	height: 57px;
 	float: inherit;
 	margin-bottom: 15px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-slider-nav .slick-slide {
+	.Ligh4Med-testimonial-slider-nav .slick-slide {
 		margin-bottom: 30px;
 	}
 }
-.sofax-testimonial-slider-nav .slider-sync-item {
+.Ligh4Med-testimonial-slider-nav .slider-sync-item {
 	cursor: pointer;
 }
-.sofax-testimonial-slider-nav .slider-sync-item img {
+.Ligh4Med-testimonial-slider-nav .slider-sync-item img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: all 0.4s;
 	border: 2px solid transparent;
 }
-.sofax-testimonial-slider-nav .slick-slide.slick-active.is-active .slider-sync-item img {
+.Ligh4Med-testimonial-slider-nav .slick-slide.slick-active.is-active .slider-sync-item img {
 	border: 2px solid var(--accent-color);
 	border-radius: 100px;
 }
@@ -4358,23 +4358,23 @@ h1.post__title {
 	border-radius: 100px;
 }
 
-.sofax-testimonial-content-wrap {
+.Ligh4Med-testimonial-content-wrap {
 	padding: 30px;
 	border: 1px solid var(--light-color);
 	border-radius: 10px;
 	margin-bottom: 24px;
 }
-.sofax-testimonial-btn {
+.Ligh4Med-testimonial-btn {
 	text-align: center;
 	margin-top: 56px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-btn {
+	.Ligh4Med-testimonial-btn {
 		margin-top: 42px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-btn {
+	.Ligh4Med-testimonial-btn {
 		margin-top: 18px;
 	}
 }
@@ -4408,25 +4408,25 @@ h1.post__title {
 	}
 }
 
-.sofax-testimonial-author-data-v4 h4 {
+.Ligh4Med-testimonial-author-data-v4 h4 {
 	margin-bottom: 8px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-author-data-v4 {
+	.Ligh4Med-testimonial-author-data-v4 {
 		text-align: center;
 	}
 }
 
-.sofax-default-contentv5 p {
+.Ligh4Med-default-contentv5 p {
 	max-width: 630px;
 }
 @media (max-width: 1199px) {
-	.sofax-default-contentv5 p {
+	.Ligh4Med-default-contentv5 p {
 		max-width: 100%;
 	}
 }
 
-.sofax-testimonial-slider-wrapv5 {
+.Ligh4Med-testimonial-slider-wrapv5 {
 	padding: 30px;
 	border: 1px solid var(--dark-bg);
 	border-radius: 5px;
@@ -4434,42 +4434,42 @@ h1.post__title {
 	margin: 0 10px 10px 0;
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-slider-wrapv5 {
+	.Ligh4Med-testimonial-slider-wrapv5 {
 		margin-top: 50px;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-slider-wrapv5 {
+	.Ligh4Med-testimonial-slider-wrapv5 {
 		margin-top: 30px;
 	}
 }
-.sofax-testimonial-slider-ratingv5 {
+.Ligh4Med-testimonial-slider-ratingv5 {
 	margin-bottom: 15px;
 }
-.sofax-testimonial-slider-ratingv5 ul li {
+.Ligh4Med-testimonial-slider-ratingv5 ul li {
 	display: inline-block;
 }
-.sofax-testimonial-slider-datav5 {
+.Ligh4Med-testimonial-slider-datav5 {
 	margin-bottom: 24px;
 }
-.sofax-testimonial-slider-authore-wrap {
+.Ligh4Med-testimonial-slider-authore-wrap {
 	display: flex;
 	gap: 10px;
 }
 
-.sofax-testimonial-2column-sliderv5 .sofax-t-next:hover,
-.sofax-testimonial-2column-sliderv5 .sofax-t-prev svg {
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-next:hover,
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev svg {
 	background-color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
 
-.sofax-testimonial-2column-sliderv5 .sofax-t-prev:hover {
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev:hover {
 	background-color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
 
-.sofax-testimonial-2column-sliderv5 .sofax-t-next,
-.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-next,
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 	left: 0;
 	bottom: -27%;
 	width: 50px;
@@ -4486,49 +4486,49 @@ h1.post__title {
 	border: 1px solid var(--dark-bg);
 }
 @media (max-width: 1399px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-next,
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		left: 0;
 		bottom: -20%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-next,
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		bottom: -20%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-next,
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-next,
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		display: none;
 	}
 }
 
-.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 	left: 13%;
 	bottom: -27%;
 	background-image: url(../images/v5/right-arrow.svg);
 }
 @media (max-width: 1399px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		left: 15%;
 		bottom: -20%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		left: 7%;
 		bottom: -20%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		left: 10%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-2column-sliderv5 .sofax-t-prev {
+	.Ligh4Med-testimonial-2column-sliderv5 .Ligh4Med-t-prev {
 		display: none;
 	}
 }
@@ -4546,12 +4546,12 @@ h1.post__title {
 	}
 }
 
-.sofax-testimonial-wrapperv7 {
+.Ligh4Med-testimonial-wrapperv7 {
 	position: relative;
 	z-index: 0;
 	padding: 30px;
 }
-.sofax-testimonial-wrapperv7::before {
+.Ligh4Med-testimonial-wrapperv7::before {
 	content: "";
 	background-color: var(--white-bg);
 	border-radius: 5px;
@@ -4562,60 +4562,60 @@ h1.post__title {
 	bottom: 10px;
 	left: 0;
 }
-.sofax-testimonial-wrapv7 {
+.Ligh4Med-testimonial-wrapv7 {
 	display: flex;
 	gap: 18px;
 }
-.sofax-testimonial-thumbv7 {
+.Ligh4Med-testimonial-thumbv7 {
 	width: 42%;
 	padding-bottom: 20px;
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-thumbv7 {
+	.Ligh4Med-testimonial-thumbv7 {
 		width: 30%;
 	}
 }
-.sofax-testimonial-rattingv7 {
+.Ligh4Med-testimonial-rattingv7 {
 	margin-top: 50px;
 }
 @media (max-width: 1200px) {
-	.sofax-testimonial-rattingv7 img {
+	.Ligh4Med-testimonial-rattingv7 img {
 		width: 16px;
 		height: 16px;
 	}
-	.sofax-testimonial-rattingv7 {
+	.Ligh4Med-testimonial-rattingv7 {
 		margin-top: 18px;
 	}
-	.sofax-testimonial-wrapperv7 {
+	.Ligh4Med-testimonial-wrapperv7 {
 		padding: 20px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-testimonial-rattingv7 {
+	.Ligh4Med-testimonial-rattingv7 {
 		margin-top: 50px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-testimonial-rattingv7 {
+	.Ligh4Med-testimonial-rattingv7 {
 		margin-top: 30px;
 	}
 }
-.sofax-testimonial-rattingv7 ul li {
+.Ligh4Med-testimonial-rattingv7 ul li {
 	display: inline-block;
 	margin-bottom: 10px;
 }
-.sofax-testimonial-authorev7 h5 {
+.Ligh4Med-testimonial-authorev7 h5 {
 	margin-bottom: 5px;
 }
 
-.sofax-testimonial-thumbv8 {
+.Ligh4Med-testimonial-thumbv8 {
 	position: relative;
 	display: block;
 	margin-bottom: 24px;
 	text-align: center;
 }
 
-.sofax-testimonial-thumbv8::before {
+.Ligh4Med-testimonial-thumbv8::before {
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -4627,11 +4627,11 @@ h1.post__title {
 	transition: 0.3s;
 }
 
-.sofax-testimonial-thumbv8:hover::before {
+.Ligh4Med-testimonial-thumbv8:hover::before {
 	opacity: 1;
 }
 
-.sofax-testimonial-btnv8 {
+.Ligh4Med-testimonial-btnv8 {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
@@ -4640,10 +4640,10 @@ h1.post__title {
 	transition: all 0.3s;
 	text-align: center;
 }
-.sofax-testimonial-btnv8 p {
+.Ligh4Med-testimonial-btnv8 p {
 	font-size: 16px !important;
 }
-.sofax-testimonial-btnv8 .right-icon-btn {
+.Ligh4Med-testimonial-btnv8 .right-icon-btn {
 	width: 24px;
 	height: 24px;
 	border-radius: 100px;
@@ -4656,11 +4656,11 @@ h1.post__title {
 	left: 40%;
 }
 
-.sofax-testimonial-itemv8:hover .sofax-testimonial-thumbv8::before {
+.Ligh4Med-testimonial-itemv8:hover .Ligh4Med-testimonial-thumbv8::before {
 	opacity: 1;
 }
 
-.sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 {
+.Ligh4Med-testimonial-itemv8:hover .Ligh4Med-testimonial-btnv8 {
 	opacity: 1;
 }
 
@@ -4670,36 +4670,36 @@ h1.post__title {
 	margin-bottom: 24px;
 }
 
-.sofax-testimonial-authore-wrapv8 {
+.Ligh4Med-testimonial-authore-wrapv8 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.sofax-testimonial-authore-data h5 {
+.Ligh4Med-testimonial-authore-data h5 {
 	margin-bottom: 5px;
 }
-.sofax-testimonial-authore-icon ul li {
+.Ligh4Med-testimonial-authore-icon ul li {
 	display: inline-block;
 }
 
-.sofax-cta-btn {
+.Ligh4Med-cta-btn {
 	position: relative;
 	text-align: center;
 }
-.sofax-cta-btn p {
+.Ligh4Med-cta-btn p {
 	margin-top: 15px;
 }
 
-.sofax-cta-content {
+.Ligh4Med-cta-content {
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
 	position: relative;
 }
-.sofax-cta-content h2 {
+.Ligh4Med-cta-content h2 {
 	margin-bottom: 20px;
 }
-.sofax-cta-content span.cta-bottom {
+.Ligh4Med-cta-content span.cta-bottom {
 	font-size: 18px;
 	display: block;
 	margin-top: 15px;
@@ -4712,18 +4712,18 @@ h1.post__title {
 	}
 }
 
-.sofax-social-icon ul li {
+.Ligh4Med-social-icon ul li {
 	display: inline-block;
 }
 @media (max-width: 485px) {
-	.sofax-social-icon ul li {
+	.Ligh4Med-social-icon ul li {
 		margin-bottom: 12px;
 	}
-	.sofax-social-icon ul li:last-child {
+	.Ligh4Med-social-icon ul li:last-child {
 		margin-bottom: 0;
 	}
 }
-.sofax-social-icon ul li a {
+.Ligh4Med-social-icon ul li a {
 	border-radius: 50px;
 	border: 1px solid var(--light-bg);
 	background-color: var(--light-bg);
@@ -4735,67 +4735,67 @@ h1.post__title {
 	transition: all 0.4s;
 	justify-content: center;
 }
-.sofax-social-icon ul li a:hover {
+.Ligh4Med-social-icon ul li a:hover {
 	background-color: var(--accent-color);
 }
-.sofax-social-icon.dark-social ul li a {
+.Ligh4Med-social-icon.dark-social ul li a {
 	background-color: var(--body-color);
 	border: 1px solid var(--body-color);
 }
-.sofax-social-icon.dark-social ul li a:hover {
+.Ligh4Med-social-icon.dark-social ul li a:hover {
 	color: var(--heading-color);
 	background-color: var(--accent-color);
 }
-.sofax-social-icon.blog-social-site ul li a {
+.Ligh4Med-social-icon.blog-social-site ul li a {
 	background: var(--dark-bg);
 	border: 1px solid var(--dark-bg);
 }
-.sofax-social-icon.blog-social-site ul li a:hover {
+.Ligh4Med-social-icon.blog-social-site ul li a:hover {
 	color: var(--heading-color);
 	background-color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
 
-.sofax-slider-section {
+.Ligh4Med-slider-section {
 	padding: 100px 0;
 }
 @media (max-width: 991px) {
-	.sofax-slider-section {
+	.Ligh4Med-slider-section {
 		padding: 80px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-slider-section {
+	.Ligh4Med-slider-section {
 		padding: 60px 0;
 	}
 }
 
-.sofax-title-section {
+.Ligh4Med-title-section {
 	text-align: center;
 	margin-bottom: 60px;
 }
 @media (max-width: 991px) {
-	.sofax-title-section {
+	.Ligh4Med-title-section {
 		margin-bottom: 40px;
 	}
 }
 
-.sofax-slider-logo {
+.Ligh4Med-slider-logo {
 	padding: 0 20px;
 }
 
-.sofax-logo-icon-item {
+.Ligh4Med-logo-icon-item {
 	padding: 0 20px;
 }
 
-.sofax-text-slider-wrap {
+.Ligh4Med-text-slider-wrap {
 	display: flex !important;
 	align-items: center;
 	justify-content: center;
 	white-space: nowrap;
 	gap: 15px;
 }
-.sofax-text-slider-icon {
+.Ligh4Med-text-slider-icon {
 	flex-shrink: 0;
 }
 
@@ -4813,46 +4813,46 @@ h1.post__title {
 	left: 0;
 }
 
-.sofax-iconbox-icon {
+.Ligh4Med-iconbox-icon {
 	flex-shrink: 0;
 }
 
-.sofax-content-iconbox-wrap {
+.Ligh4Med-content-iconbox-wrap {
 	display: flex;
 	gap: 20px;
 	max-width: 640px;
 	margin-bottom: 24px;
 }
 @media (max-width: 991px) {
-	.sofax-content-iconbox-wrap {
+	.Ligh4Med-content-iconbox-wrap {
 		gap: 15px;
 	}
-	.sofax-content-iconbox-wrap:last-child {
+	.Ligh4Med-content-iconbox-wrap:last-child {
 		margin-bottom: 0;
 	}
 }
-.sofax-content-iconbox-wrap.content-v5 {
+.Ligh4Med-content-iconbox-wrap.content-v5 {
 	max-width: none;
 	margin-bottom: 15px !important;
 }
 
-.sofax-list-icon-wrap {
+.Ligh4Med-list-icon-wrap {
 	display: flex;
 	gap: 20px;
 	justify-content: space-between;
 	margin: 24px 0 0 0;
 }
 @media (max-width: 991px) {
-	.sofax-list-icon-wrap {
+	.Ligh4Med-list-icon-wrap {
 		margin: 24px 0 0 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-list-icon-wrap {
+	.Ligh4Med-list-icon-wrap {
 		display: block;
 	}
 }
-.sofax-list-icon-icon ul li {
+.Ligh4Med-list-icon-icon ul li {
 	position: relative;
 	font-size: 23px;
 	font-weight: 700;
@@ -4863,11 +4863,11 @@ h1.post__title {
 	margin-bottom: 24px;
 }
 @media (max-width: 767px) {
-	.sofax-list-icon-icon ul li {
+	.Ligh4Med-list-icon-icon ul li {
 		margin-bottom: 15px;
 	}
 }
-.sofax-list-icon-icon ul li img {
+.Ligh4Med-list-icon-icon ul li img {
 	position: absolute;
 	left: 0;
 	top: 5px;
@@ -4941,8 +4941,8 @@ h1.post__title {
 	left: 0;
 }
 
-/* end  sofax pricing section */
-.sofax-pricing-wrap {
+/* end  Ligh4Med pricing section */
+.Ligh4Med-pricing-wrap {
 	border-radius: 10px;
 	padding: 30px;
 	margin-bottom: 24px;
@@ -4950,16 +4950,16 @@ h1.post__title {
 	background-color: var(--white-bg);
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
-.sofax-pricing-wrap.active {
+.Ligh4Med-pricing-wrap.active {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
-.sofax-pricing-header {
+.Ligh4Med-pricing-header {
 	margin-bottom: 15px;
 }
-.sofax-pricing-header img {
+.Ligh4Med-pricing-header img {
 	margin-bottom: 30px;
 }
-.sofax-pricing-price {
+.Ligh4Med-pricing-price {
 	gap: 10px;
 	display: flex;
 	align-items: flex-end;
@@ -4967,34 +4967,34 @@ h1.post__title {
 	margin-bottom: 24px;
 	border-bottom: 1px solid var(--light-color);
 }
-.sofax-pricing-price .sofax-price-value {
+.Ligh4Med-pricing-price .Ligh4Med-price-value {
 	font-weight: 700;
 	color: var(--heading-color);
 	font-size: 70px;
 	line-height: 80px;
 }
-.sofax-pricing-body {
+.Ligh4Med-pricing-body {
 	margin-bottom: 40px;
 }
-.sofax-pricing-body h5 {
+.Ligh4Med-pricing-body h5 {
 	font-weight: 600;
 	margin-bottom: 20px;
 }
-.sofax-pricing-body ul li {
+.Ligh4Med-pricing-body ul li {
 	position: relative;
 	font-weight: 600;
 	padding-left: 40px;
 	margin-bottom: 15px;
 }
-.sofax-pricing-body ul li:last-child {
+.Ligh4Med-pricing-body ul li:last-child {
 	margin-bottom: 0;
 }
-.sofax-pricing-body ul li img {
+.Ligh4Med-pricing-body ul li img {
 	position: absolute;
 	left: 0;
 	top: 5px;
 }
-.sofax-pricing-bodyv4 {
+.Ligh4Med-pricing-bodyv4 {
 	margin-bottom: 0 !important;
 }
 
@@ -5107,63 +5107,63 @@ h1.post__title {
 	border-top: 1px solid var(--light-color);
 }
 
-.sofax-hero-shape {
+.Ligh4Med-hero-shape {
 	position: absolute;
 	left: 0;
 	top: -27%;
 }
 @media (max-width: 1399px) {
-	.sofax-hero-shape {
+	.Ligh4Med-hero-shape {
 		left: 0;
 		top: -26%;
 		width: 20%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-hero-shape {
+	.Ligh4Med-hero-shape {
 		left: -9%;
 		top: -27%;
 		width: 20%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-hero-shape {
+	.Ligh4Med-hero-shape {
 		display: none;
 	}
 }
-.sofax-hero-shape img {
+.Ligh4Med-hero-shape img {
 	width: 100%;
 	height: auto;
 }
-.sofax-hero-shape2 {
+.Ligh4Med-hero-shape2 {
 	position: absolute;
 	right: -14%;
 	bottom: 68%;
 }
-.sofax-hero-shape2 img {
+.Ligh4Med-hero-shape2 img {
 	width: 100%;
 	height: auto;
 }
 @media (max-width: 1399px) {
-	.sofax-hero-shape2 {
+	.Ligh4Med-hero-shape2 {
 		right: -15%;
 		bottom: 63%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-hero-shape2 {
+	.Ligh4Med-hero-shape2 {
 		right: -11%;
 		top: 6%;
 		width: 20%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-hero-shape2 {
+	.Ligh4Med-hero-shape2 {
 		display: none;
 	}
 }
 
-.sofax-card-shape {
+.Ligh4Med-card-shape {
 	position: absolute;
 	bottom: 20px;
 	right: -115px;
@@ -5173,47 +5173,47 @@ h1.post__title {
 	animation: updown 3s ease-in-out infinite;
 }
 @media (max-width: 1399px) {
-	.sofax-card-shape {
+	.Ligh4Med-card-shape {
 		bottom: 50px;
 		right: -115px;
 	}
-	.sofax-card-shape img {
+	.Ligh4Med-card-shape img {
 		width: 80%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-card-shape {
+	.Ligh4Med-card-shape {
 		display: none;
 	}
-	.sofax-card-shape img {
+	.Ligh4Med-card-shape img {
 		width: 100%;
 	}
 }
 
-.sofax-content-shape-v1 {
+.Ligh4Med-content-shape-v1 {
 	position: absolute;
 	top: -14%;
 	right: -16%;
 }
 @media (max-width: 1399px) {
-	.sofax-content-shape-v1 {
+	.Ligh4Med-content-shape-v1 {
 		display: none;
 	}
 }
 
-.sofax-cta-shape {
+.Ligh4Med-cta-shape {
 	position: absolute;
 	bottom: 3%;
 	right: -17%;
 }
 @media (max-width: 1349px) {
-	.sofax-cta-shape {
+	.Ligh4Med-cta-shape {
 		right: -4%;
 		width: 30%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-cta-shape {
+	.Ligh4Med-cta-shape {
 		display: none;
 	}
 }
@@ -5229,77 +5229,77 @@ h1.post__title {
 	}
 }
 
-.sofax-cta-shape2 {
+.Ligh4Med-cta-shape2 {
 	position: relative;
 }
 
-.sofax-cta-shape-v2 {
+.Ligh4Med-cta-shape-v2 {
 	position: absolute;
 	bottom: -20px;
 	left: 28%;
 }
 @media (max-width: 1199px) {
-	.sofax-cta-shape-v2 {
+	.Ligh4Med-cta-shape-v2 {
 		left: 38%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-cta-shape-v2 {
+	.Ligh4Med-cta-shape-v2 {
 		left: 67%;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-cta-shape-v2 img {
+	.Ligh4Med-cta-shape-v2 img {
 		width: 90%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-cta-shape-v2 img {
+	.Ligh4Med-cta-shape-v2 img {
 		display: none;
 	}
 }
 
-.sofax-hero-shape-v2 {
+.Ligh4Med-hero-shape-v2 {
 	position: absolute;
 	top: -30px;
 	right: 10px;
 }
 @media (max-width: 1399px) {
-	.sofax-hero-shape-v2 {
+	.Ligh4Med-hero-shape-v2 {
 		top: -38px;
 		right: 8px;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-hero-shape-v2 {
+	.Ligh4Med-hero-shape-v2 {
 		top: -40px;
 		right: 0px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-hero-shape-v2 {
+	.Ligh4Med-hero-shape-v2 {
 		display: none;
 	}
 }
 
-.sofax-ctathumb-shape {
+.Ligh4Med-ctathumb-shape {
 	position: absolute;
 	top: 11%;
 	left: 18%;
 }
 @media (max-width: 1399px) {
-	.sofax-ctathumb-shape {
+	.Ligh4Med-ctathumb-shape {
 		display: none;
 	}
 }
 
-.sofax-ctathumb-shape2 {
+.Ligh4Med-ctathumb-shape2 {
 	position: absolute;
 	bottom: 25%;
 	right: 33%;
 }
 @media (max-width: 1399px) {
-	.sofax-ctathumb-shape2 {
+	.Ligh4Med-ctathumb-shape2 {
 		display: none;
 	}
 }
@@ -5425,71 +5425,71 @@ h1.post__title {
 	}
 }
 
-.sofax-content-shape1 {
+.Ligh4Med-content-shape1 {
 	position: absolute;
 	top: 3%;
 	left: 0;
 }
 @media (max-width: 1399px) {
-	.sofax-content-shape1 {
+	.Ligh4Med-content-shape1 {
 		display: none;
 	}
 }
 
-.sofax-content-shape2 {
+.Ligh4Med-content-shape2 {
 	position: absolute;
 	top: 6%;
 	left: 0;
 }
 @media (max-width: 1399px) {
-	.sofax-content-shape2 {
+	.Ligh4Med-content-shape2 {
 		display: none;
 	}
 }
 
-.sofax-pricing-shapev4 {
+.Ligh4Med-pricing-shapev4 {
 	position: absolute;
 	top: 14%;
 	left: 15%;
 }
 @media (max-width: 1399px) {
-	.sofax-pricing-shapev4 {
+	.Ligh4Med-pricing-shapev4 {
 		display: none;
 	}
 }
 
-.sofax-testimonial-shapev4 {
+.Ligh4Med-testimonial-shapev4 {
 	position: absolute;
 	top: 0;
 	right: -25%;
 }
 @media (max-width: 1199px) {
-	.sofax-testimonial-shapev4 {
+	.Ligh4Med-testimonial-shapev4 {
 		display: none;
 	}
 }
 
-.sofax-blog-shapev4 {
+.Ligh4Med-blog-shapev4 {
 	position: absolute;
 	top: 11%;
 	left: 8%;
 }
 @media (max-width: 1399px) {
-	.sofax-blog-shapev4 {
+	.Ligh4Med-blog-shapev4 {
 		top: 15%;
 		left: 0;
 	}
-	.sofax-blog-shapev4 img {
+	.Ligh4Med-blog-shapev4 img {
 		width: 80%;
 	}
 }
 @media (max-width: 1199px) {
-	.sofax-blog-shapev4 {
+	.Ligh4Med-blog-shapev4 {
 		display: none;
 	}
 }
 
-.sofax-hero5-shape1 {
+.Ligh4Med-hero5-shape1 {
 	position: absolute;
 	top: 26%;
 	right: 12%;
@@ -5504,133 +5504,133 @@ h1.post__title {
 	}
 }
 @media (max-width: 1399px) {
-	.sofax-hero5-shape1 {
+	.Ligh4Med-hero5-shape1 {
 		display: none;
 	}
 }
 
-.sofax-hero5-shape2 {
+.Ligh4Med-hero5-shape2 {
 	position: absolute;
 	bottom: 28%;
 	right: -18%;
 }
 @media (max-width: 1399px) {
-	.sofax-hero5-shape2 {
+	.Ligh4Med-hero5-shape2 {
 		display: none;
 	}
 }
 
-.sofax-hero5-shape3 {
+.Ligh4Med-hero5-shape3 {
 	position: absolute;
 	top: -18%;
 	left: -23%;
 }
 @media (max-width: 1399px) {
-	.sofax-hero5-shape3 {
+	.Ligh4Med-hero5-shape3 {
 		display: none;
 	}
 }
 
-.sofax-about-shapev5 {
+.Ligh4Med-about-shapev5 {
 	position: absolute;
 	top: 7%;
 	left: 5%;
 }
 @media (max-width: 1399px) {
-	.sofax-about-shapev5 {
+	.Ligh4Med-about-shapev5 {
 		display: none;
 	}
 }
 
-.sofax-content-shapev5 {
+.Ligh4Med-content-shapev5 {
 	position: absolute;
 	top: 7%;
 	right: 6%;
 }
-.sofax-content-shapev5 img {
+.Ligh4Med-content-shapev5 img {
 	width: 80%;
 }
 @media (max-width: 1399px) {
-	.sofax-content-shapev5 {
+	.Ligh4Med-content-shapev5 {
 		display: none;
 	}
 }
 
-.sofax-footer-shapev5 {
+.Ligh4Med-footer-shapev5 {
 	position: absolute;
 	top: 26%;
 	left: 46%;
 	animation: animName 4s linear infinite;
 }
 @media (max-width: 1399px) {
-	.sofax-footer-shapev5 {
+	.Ligh4Med-footer-shapev5 {
 		display: none;
 	}
 }
 
-.sofax-footer-shapev8 {
+.Ligh4Med-footer-shapev8 {
 	position: absolute;
 	top: 26%;
 	left: 52%;
 	animation: animName 4s linear infinite;
 }
 @media (max-width: 1399px) {
-	.sofax-footer-shapev8 {
+	.Ligh4Med-footer-shapev8 {
 		display: none;
 	}
 }
 
-.sofax-footer-shape2v5 {
+.Ligh4Med-footer-shape2v5 {
 	position: absolute;
 	top: -6%;
 	left: -23%;
 }
 @media (max-width: 1399px) {
-	.sofax-footer-shape2v5 {
+	.Ligh4Med-footer-shape2v5 {
 		display: none;
 	}
 }
 
-.sofax-testimonial-shapev5 {
+.Ligh4Med-testimonial-shapev5 {
 	position: absolute;
 	top: 40px;
 	right: 50px;
 }
 @media (max-width: 1399px) {
-	.sofax-testimonial-shapev5 {
+	.Ligh4Med-testimonial-shapev5 {
 		display: none;
 	}
 }
 
-.sofax-inner-service-shape {
+.Ligh4Med-inner-service-shape {
 	position: absolute;
 	top: 2%;
 	right: 9%;
 }
 @media (max-width: 1399px) {
-	.sofax-inner-service-shape {
+	.Ligh4Med-inner-service-shape {
 		display: none;
 	}
 }
 
-.sofax-service-inner-details-shape {
+.Ligh4Med-service-inner-details-shape {
 	position: absolute;
 	top: 15%;
 	right: -7%;
 }
 @media (max-width: 1399px) {
-	.sofax-service-inner-details-shape {
+	.Ligh4Med-service-inner-details-shape {
 		display: none;
 	}
 }
 
-.sofax-form-shape {
+.Ligh4Med-form-shape {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 @media (max-width: 1399px) {
-	.sofax-form-shape {
+	.Ligh4Med-form-shape {
 		display: none;
 	}
 }
@@ -5646,7 +5646,7 @@ h1.post__title {
 	}
 }
 
-.sofax-hero-shape-v8 {
+.Ligh4Med-hero-shape-v8 {
 	position: absolute;
 	top: 23%;
 	left: -12%;
@@ -5656,12 +5656,12 @@ h1.post__title {
 	animation: updown 3s ease-in-out infinite;
 }
 @media (max-width: 1399px) {
-	.sofax-hero-shape-v8 {
+	.Ligh4Med-hero-shape-v8 {
 		display: none;
 	}
 }
 
-.sofax-hero-shape2-v8 {
+.Ligh4Med-hero-shape2-v8 {
 	position: absolute;
 	top: 5px;
 	right: -28%;
@@ -5671,23 +5671,23 @@ h1.post__title {
 	animation: updown 4s ease-in-out infinite;
 }
 @media (max-width: 1399px) {
-	.sofax-hero-shape2-v8 {
+	.Ligh4Med-hero-shape2-v8 {
 		display: none;
 	}
 }
 
-.sofax-logo-section {
+.Ligh4Med-logo-section {
 	padding: 25px 0;
 	text-align: center;
 	background-color: var(--dark-bg);
 }
 
-.sofax-account-title {
+.Ligh4Med-account-title {
 	text-align: center;
 	margin-bottom: 45px;
 }
 
-.sofax-account-checkbox-wrap {
+.Ligh4Med-account-checkbox-wrap {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -5698,25 +5698,25 @@ a.forgot-password {
 	color: var(--heading-color);
 }
 
-.sofax-account-wrap {
+.Ligh4Med-account-wrap {
 	padding: 40px;
 	max-width: 856px;
 	border-radius: 10px;
 	margin: 0 auto;
 	border: 1px solid var(--heading-color);
 }
-.sofax-account-field {
+.Ligh4Med-account-field {
 	margin-bottom: 24px;
 }
-.sofax-account-field label {
+.Ligh4Med-account-field label {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 10px;
 }
-.sofax-account-field input {
+.Ligh4Med-account-field input {
 	font-weight: 400;
 }
-.sofax-account-checkbox input {
+.Ligh4Med-account-checkbox input {
 	padding: 0;
 	height: initial;
 	width: initial;
@@ -5724,18 +5724,18 @@ a.forgot-password {
 	display: none;
 	cursor: pointer;
 }
-.sofax-account-checkbox label {
+.Ligh4Med-account-checkbox label {
 	position: relative;
 	font-size: 16px;
 	display: flex;
 	align-items: center;
 }
-.sofax-account-checkbox label a {
+.Ligh4Med-account-checkbox label a {
 	color: var(--body-color);
 	font-weight: 600;
 	margin: 0 4px;
 }
-.sofax-account-checkbox label:before {
+.Ligh4Med-account-checkbox label:before {
 	content: "";
 	-webkit-appearance: none;
 	background-color: transparent;
@@ -5749,7 +5749,7 @@ a.forgot-password {
 	border-radius: 3px;
 }
 
-.sofax-account-checkbox input:checked + label:after {
+.Ligh4Med-account-checkbox input:checked + label:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -5762,7 +5762,7 @@ a.forgot-password {
 	transform: rotate(45deg);
 }
 
-button#sofax-account-btn {
+button#Ligh4Med-account-btn {
 	height: 60px;
 	width: 100%;
 	font-size: 16px;
@@ -5773,19 +5773,19 @@ button#sofax-account-btn {
 	margin: 50px 0;
 	background-color: var(--dark-bg);
 }
-button#sofax-account-btn:hover {
+button#Ligh4Med-account-btn:hover {
 	color: var(--heading-color);
 	background-color: var(--accent-bg);
 }
 
-.sofax-or {
+.Ligh4Med-or {
 	z-index: 0;
 	line-height: 1;
 	position: relative;
 	text-align: center;
 	margin-bottom: 40px;
 }
-.sofax-or p {
+.Ligh4Med-or p {
 	line-height: 1;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -5795,7 +5795,7 @@ button#sofax-account-btn:hover {
 	text-align: center;
 	background-color: var(--light-bg1);
 }
-.sofax-or::before {
+.Ligh4Med-or::before {
 	content: "";
 	left: 0;
 	top: 9px;
@@ -5806,7 +5806,7 @@ button#sofax-account-btn:hover {
 	background-color: #e6e6e6;
 }
 
-a.sofax-connect-login {
+a.Ligh4Med-connect-login {
 	height: 60px;
 	width: 100%;
 	font-size: 16px;
@@ -5821,59 +5821,59 @@ a.sofax-connect-login {
 	color: var(--heading-color);
 	border: 1px solid var(--dark-bg);
 }
-a.sofax-connect-login img {
+a.Ligh4Med-connect-login img {
 	margin-right: 15px;
 }
 
-.sofax-account-bottom {
+.Ligh4Med-account-bottom {
 	margin-top: 40px;
 	text-align: center;
 }
-.sofax-account-bottom p {
+.Ligh4Med-account-bottom p {
 	font-size: 16px;
 }
-.sofax-account-bottom a {
+.Ligh4Med-account-bottom a {
 	font-weight: 600;
 	color: var(--body-color);
 }
 
-.sofax-errors-wrap {
+.Ligh4Med-errors-wrap {
 	padding: 200px 0 130px;
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-errors-wrap {
+	.Ligh4Med-errors-wrap {
 		padding: 170px 0 100px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-errors-wrap {
+	.Ligh4Med-errors-wrap {
 		padding: 150px 0 80px;
 	}
 }
-.sofax-errors-thumb {
+.Ligh4Med-errors-thumb {
 	margin-bottom: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-errors-thumb {
+	.Ligh4Med-errors-thumb {
 		margin-bottom: 60px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-errors-thumb {
+	.Ligh4Med-errors-thumb {
 		margin-bottom: 40px;
 	}
 }
-.sofax-errors-title {
+.Ligh4Med-errors-title {
 	margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-	.sofax-errors-title {
+	.Ligh4Med-errors-title {
 		margin-bottom: 40px;
 	}
 }
 
-.sofax-errors-btn {
+.Ligh4Med-errors-btn {
 	border-radius: 50px;
 	width: 290px;
 	padding: 13px 10px 13px 24px;
@@ -5887,7 +5887,7 @@ a.sofax-connect-login img {
 	transition: all 0.4s;
 	margin: 0 auto;
 }
-.sofax-errors-btn span {
+.Ligh4Med-errors-btn span {
 	width: 50px;
 	height: 50px;
 	display: flex;
@@ -5903,31 +5903,31 @@ a.sofax-connect-login img {
 	background-color: var(--accent-bg);
 }
 
-.sofax-hero-thumb1 {
+.Ligh4Med-hero-thumb1 {
 	position: relative;
 	padding-top: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-hero-thumb1 {
+	.Ligh4Med-hero-thumb1 {
 		padding-top: 60px;
 		text-align: center;
 	}
-	.sofax-hero-thumb1 img {
+	.Ligh4Med-hero-thumb1 img {
 		width: 100%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-thumb1 {
+	.Ligh4Med-hero-thumb1 {
 		padding-top: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-hero-thumb1 {
+	.Ligh4Med-hero-thumb1 {
 		padding-top: 30px;
 	}
 }
 
-.sofax-content-img {
+.Ligh4Med-content-img {
 	position: relative;
 	text-align: center;
 	background-image: url(../images/v1/shape5.png);
@@ -5936,30 +5936,30 @@ a.sofax-connect-login img {
 	border-radius: 20px;
 }
 @media (max-width: 991px) {
-	.sofax-content-img {
+	.Ligh4Med-content-img {
 		margin-bottom: 40px !important;
 	}
-	.sofax-content-img img {
+	.Ligh4Med-content-img img {
 		width: 100%;
 	}
 }
 
 @media (max-width: 991px) {
-	.sofax-content-img2 {
+	.Ligh4Med-content-img2 {
 		margin: 80px 0 40px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-content-img2 {
+	.Ligh4Med-content-img2 {
 		margin: 60px 0 30px 0;
 	}
 }
 
-.sofax-features-thumb {
+.Ligh4Med-features-thumb {
 	text-align: center;
 	margin-top: 30px;
 }
-.sofax-features-thumb img {
+.Ligh4Med-features-thumb img {
 	width: 100%;
 }
 
@@ -5993,52 +5993,52 @@ a.sofax-connect-login img {
 	height: 100%;
 }
 
-.sofax-hero-thumb2 {
+.Ligh4Med-hero-thumb2 {
 	position: relative;
 	text-align: center;
 	margin-left: 70px;
 }
 @media (max-width: 1199px) {
-	.sofax-hero-thumb2 {
+	.Ligh4Med-hero-thumb2 {
 		margin-left: 0;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-hero-thumb2 {
+	.Ligh4Med-hero-thumb2 {
 		margin-top: 40px;
 	}
 }
 
-.sofax-cta-thumb {
+.Ligh4Med-cta-thumb {
 	position: relative;
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-cta-thumb img {
+	.Ligh4Med-cta-thumb img {
 		margin-bottom: 40px;
 		width: 100%;
 	}
 }
 
 @media (max-width: 991px) {
-	.sofax-content-thumb {
+	.Ligh4Med-content-thumb {
 		margin-bottom: 40px;
 	}
-	.sofax-content-thumb img {
+	.Ligh4Med-content-thumb img {
 		width: 100%;
 	}
 }
 
-.sofax-content-thumb-v4 {
+.Ligh4Med-content-thumb-v4 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-content-thumb-v4 {
+	.Ligh4Med-content-thumb-v4 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-content-thumb-v4 {
+	.Ligh4Med-content-thumb-v4 {
 		margin-bottom: 30px;
 	}
 }
@@ -6057,7 +6057,7 @@ a.sofax-connect-login img {
 		box-shadow: 5px 5px 0px 0px var(--dark-bg);
 	}
 }
-.hero5-thumb .sofax-popup-video2 {
+.hero5-thumb .Ligh4Med-popup-video2 {
 	/* top: 36%;
 	left: 44%;
 	position: absolute;
@@ -6065,28 +6065,28 @@ a.sofax-connect-login img {
 	animation: animName 10s linear infinite;
 }
 @media (max-width: 1199px) {
-	.hero5-thumb .sofax-popup-video2 {
+	.hero5-thumb .Ligh4Med-popup-video2 {
 		top: 40%;
 		left: 42%;
 	}
 }
 @media (max-width: 991px) {
-	.hero5-thumb .sofax-popup-video2 {
+	.hero5-thumb .Ligh4Med-popup-video2 {
 		top: 40%;
 		left: 40%;
 	}
 }
 @media (max-width: 425px) {
-	.hero5-thumb .sofax-popup-video2 {
+	.hero5-thumb .Ligh4Med-popup-video2 {
 		left: 30%;
 	}
 }
 @media (max-width: 767px) {
-	.hero5-thumb .sofax-popup-video2 {
+	.hero5-thumb .Ligh4Med-popup-video2 {
 		text-align: center;
 	}
 }
-.hero5-thumb .sofax-popup-video2 img {
+.hero5-thumb .Ligh4Med-popup-video2 img {
 	box-shadow: none !important;
 	border: 2px solid var(--dark-bg);
 	border-radius: 100px;
@@ -6094,12 +6094,12 @@ a.sofax-connect-login img {
 	padding: 8px;
 }
 @media (max-width: 1199px) {
-	.hero5-thumb .sofax-popup-video2 img {
+	.hero5-thumb .Ligh4Med-popup-video2 img {
 		width: 70%;
 	}
 }
 @media (max-width: 991px) {
-	.hero5-thumb .sofax-popup-video2 img {
+	.hero5-thumb .Ligh4Med-popup-video2 img {
 		width: 60%;
 		display: none;
 	}
@@ -6113,7 +6113,7 @@ a.sofax-connect-login img {
 	}
 }
 @media (max-width: 767px) {
-	.hero5-thumb .sofax-popup-video2 img {
+	.hero5-thumb .Ligh4Med-popup-video2 img {
 		width: 50%;
 		display: none;
 	}
@@ -6127,7 +6127,7 @@ a.sofax-connect-login img {
 	}
 }
 @media (max-width: 525px) {
-	.hero5-thumb .sofax-popup-video2 img {
+	.hero5-thumb .Ligh4Med-popup-video2 img {
 		width: 30%;
 		display: none;
 	}
@@ -6174,170 +6174,170 @@ a.sofax-connect-login img {
 	border-radius: 8px;
 }
 
-.sofax-portfolio-thumb {
+.Ligh4Med-portfolio-thumb {
 	margin-bottom: 24px;
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-thumb img {
+	.Ligh4Med-portfolio-thumb img {
 		width: 1000%;
 	}
 }
 
-.sofax-aboutus-thumb {
+.Ligh4Med-aboutus-thumb {
 	position: relative;
 }
-.sofax-aboutus-thumb img {
+.Ligh4Med-aboutus-thumb img {
 	box-shadow: 8px 8px 0 0 var(--dark-bg);
 	border-radius: 8px;
 }
 
-.sofax-inner-service-thumb {
+.Ligh4Med-inner-service-thumb {
 	margin-bottom: 40px;
 }
 @media (max-width: 991px) {
-	.sofax-inner-service-thumb {
+	.Ligh4Med-inner-service-thumb {
 		margin-bottom: 30px;
 	}
 }
-.sofax-inner-service-thumb img {
+.Ligh4Med-inner-service-thumb img {
 	box-shadow: 8px 8px 0 0 var(--dark-bg);
 	border-radius: 10px;
 }
 @media (max-width: 991px) {
-	.sofax-inner-service-thumb img {
+	.Ligh4Med-inner-service-thumb img {
 		width: 100%;
 	}
 }
 
-.sofax-service-content-thumb {
+.Ligh4Med-service-content-thumb {
 	box-shadow: 8px 8px 0 0 var(--dark-bg);
 	border-radius: 8px;
 	margin-bottom: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-service-content-thumb {
+	.Ligh4Med-service-content-thumb {
 		margin-bottom: 60px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-service-content-thumb {
+	.Ligh4Med-service-content-thumb {
 		margin-bottom: 40px;
 	}
 }
 
 @media (max-width: 991px) {
-	.sofax-inner-content-thumb {
+	.Ligh4Med-inner-content-thumb {
 		margin-top: 40px;
 	}
 }
-.sofax-inner-content-thumb img {
+.Ligh4Med-inner-content-thumb img {
 	box-shadow: 8px 8px 0 0 var(--dark-bg);
 	border-radius: 8px;
 }
 @media (max-width: 991px) {
-	.sofax-inner-content-thumb img {
+	.Ligh4Med-inner-content-thumb img {
 		width: 100%;
 	}
 }
 
-.sofax-career-thumb {
+.Ligh4Med-career-thumb {
 	padding-bottom: 100px;
 	border-bottom: 1px solid var(--light-color);
 	margin-bottom: 100px;
 }
 @media (max-width: 991px) {
-	.sofax-career-thumb {
+	.Ligh4Med-career-thumb {
 		padding-bottom: 70px;
 		margin-bottom: 70px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-career-thumb {
+	.Ligh4Med-career-thumb {
 		padding-bottom: 40px;
 		margin-bottom: 40px;
 	}
 }
 
-.sofax-about-thumbv8 {
+.Ligh4Med-about-thumbv8 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-about-thumbv8 {
+	.Ligh4Med-about-thumbv8 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-about-thumbv8 {
+	.Ligh4Med-about-thumbv8 {
 		margin-bottom: 30px;
 	}
 }
 
-.sofax-content-thumbv8 {
+.Ligh4Med-content-thumbv8 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-content-thumbv8 {
+	.Ligh4Med-content-thumbv8 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-content-thumbv8 {
+	.Ligh4Med-content-thumbv8 {
 		margin-bottom: 30px;
 	}
 }
 
-.sofax-content-thumb-v9 {
+.Ligh4Med-content-thumb-v9 {
 	padding: 30px;
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-content-thumb-v9 {
+	.Ligh4Med-content-thumb-v9 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-content-thumb-v9 {
+	.Ligh4Med-content-thumb-v9 {
 		margin-bottom: 30px;
 	}
 }
 
-.sofax-content-thumb-v10 {
+.Ligh4Med-content-thumb-v10 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-content-thumb-v10 {
+	.Ligh4Med-content-thumb-v10 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-content-thumb-v10 {
+	.Ligh4Med-content-thumb-v10 {
 		margin-bottom: 30px;
 	}
 }
 
-.sofax-faq-thumbv10 {
+.Ligh4Med-faq-thumbv10 {
 	text-align: center;
 }
 @media (max-width: 991px) {
-	.sofax-faq-thumbv10 {
+	.Ligh4Med-faq-thumbv10 {
 		margin-bottom: 40px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-faq-thumbv10 {
+	.Ligh4Med-faq-thumbv10 {
 		margin-bottom: 30px;
 	}
 }
-.sofax-faq-thumbv10 img {
+.Ligh4Med-faq-thumbv10 img {
 	width: 60%;
 }
 @media (max-width: 991px) {
-	.sofax-faq-thumbv10 img {
+	.Ligh4Med-faq-thumbv10 img {
 		width: 80%;
 	}
 }
 
-.sofax-career-content-wrapper {
+.Ligh4Med-career-content-wrapper {
 	border: 1px solid var(--light-color);
 	padding: 30px;
 	border-radius: 10px;
@@ -6346,54 +6346,54 @@ a.sofax-connect-login img {
 	transition: all 0.3s;
 }
 @media (max-width: 425px) {
-	.sofax-career-content-wrapper {
+	.Ligh4Med-career-content-wrapper {
 		margin-left: 0;
 	}
 }
-.sofax-career-content-wrapper:hover {
+.Ligh4Med-career-content-wrapper:hover {
 	background: var(--dark-bg);
 	border: 1px solid var(--light-color2) !important;
 }
-.sofax-career-content-wrapper:hover p,
-.sofax-career-content-wrapper:hover h4,
-.sofax-career-content-wrapper:hover h6 {
+.Ligh4Med-career-content-wrapper:hover p,
+.Ligh4Med-career-content-wrapper:hover h4,
+.Ligh4Med-career-content-wrapper:hover h6 {
 	color: var(--white-color);
 }
-.sofax-career-content-wrapper:hover .sofax-career-content-icon svg {
+.Ligh4Med-career-content-wrapper:hover .Ligh4Med-career-content-icon svg {
 	background-color: var(--accent-color);
 }
-.sofax-career-content-wrapper:hover .sofax-career-content-icon svg path {
+.Ligh4Med-career-content-wrapper:hover .Ligh4Med-career-content-icon svg path {
 	fill: var(--dark-bg);
 }
-.sofax-career-content-wrapper:hover .sofax-career-content-icon2 svg path {
+.Ligh4Med-career-content-wrapper:hover .Ligh4Med-career-content-icon2 svg path {
 	fill: var(--white-color);
 }
-.sofax-career-content-data h4 {
+.Ligh4Med-career-content-data h4 {
 	margin-bottom: 10px;
 }
-.sofax-career-content-text {
+.Ligh4Med-career-content-text {
 	margin-bottom: 24px;
 }
-.sofax-career-content-text p {
+.Ligh4Med-career-content-text p {
 	font-size: 20px !important;
 }
-.sofax-career-content-text2 h6 {
+.Ligh4Med-career-content-text2 h6 {
 	font-size: 18px !important;
 	line-height: 28px;
 	font-weight: 600;
 }
-.sofax-career-content-autohre-wrap {
+.Ligh4Med-career-content-autohre-wrap {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 24px;
 	border-bottom: 1px solid var(--light-color2);
 	margin-bottom: 24px;
 }
-.sofax-career-content-icon {
+.Ligh4Med-career-content-icon {
 	display: flex;
 	align-items: center;
 }
-.sofax-career-content-icon svg {
+.Ligh4Med-career-content-icon svg {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -6405,21 +6405,21 @@ a.sofax-connect-login img {
 	transition: all 0.4s;
 	cursor: pointer;
 }
-.sofax-career-content-icon-text-wrap {
+.Ligh4Med-career-content-icon-text-wrap {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 }
-.sofax-career-content-icon-text-wrapper2 {
+.Ligh4Med-career-content-icon-text-wrapper2 {
 	display: flex;
 	gap: 24px;
 }
 
-.sofax-portfolio-column {
+.Ligh4Med-portfolio-column {
 	margin-left: 24px;
 }
 
-.sofax-career-details1 {
+.Ligh4Med-career-details1 {
 	margin-bottom: 40px;
 }
 
@@ -6430,30 +6430,30 @@ a.sofax-connect-login img {
 	margin-bottom: 15px !important;
 }
 
-.sofax-career-details-content {
+.Ligh4Med-career-details-content {
 	margin-bottom: 40px;
 }
 @media (max-width: 991px) {
-	.sofax-career-details-content {
+	.Ligh4Med-career-details-content {
 		margin-bottom: 30px;
 	}
 }
-.sofax-career-details-content:last-child {
+.Ligh4Med-career-details-content:last-child {
 	margin-bottom: 0;
 }
-.sofax-career-details-content h3 {
+.Ligh4Med-career-details-content h3 {
 	margin-bottom: 15px;
 }
-.sofax-career-details-content p {
+.Ligh4Med-career-details-content p {
 	margin-bottom: 24px;
 }
-.sofax-career-details-content p:last-child {
+.Ligh4Med-career-details-content p:last-child {
 	margin-bottom: 0;
 }
-.sofax-career-details-data ul li {
+.Ligh4Med-career-details-data ul li {
 	margin-bottom: 15px;
 }
-.sofax-career-details-data ul li:last-child {
+.Ligh4Med-career-details-data ul li:last-child {
 	margin-bottom: 0;
 }
 
@@ -6461,17 +6461,17 @@ a.sofax-connect-login img {
 	text-align: center;
 }
 
-.sofax-integration-list-icon-wrap {
+.Ligh4Med-integration-list-icon-wrap {
 	display: flex;
 	gap: 70px;
 	align-items: center;
 }
 @media (max-width: 767px) {
-	.sofax-integration-list-icon-wrap {
+	.Ligh4Med-integration-list-icon-wrap {
 		display: block;
 	}
 }
-.sofax-integration-list-icon-icon ul li {
+.Ligh4Med-integration-list-icon-icon ul li {
 	margin-bottom: 40px;
 	font-size: 24px;
 	font-weight: 700;
@@ -6479,23 +6479,23 @@ a.sofax-connect-login img {
 	text-align: left;
 	color: #0e0e0e;
 }
-.sofax-integration-list-icon-icon ul li:nth-child(3) {
+.Ligh4Med-integration-list-icon-icon ul li:nth-child(3) {
 	margin-bottom: 0;
 }
-.sofax-integration-list-icon-icon ul li:last-child {
+.Ligh4Med-integration-list-icon-icon ul li:last-child {
 	margin-bottom: 0;
 }
 @media (max-width: 767px) {
-	.sofax-integration-list-icon-icon ul li:nth-child(2) {
+	.Ligh4Med-integration-list-icon-icon ul li:nth-child(2) {
 		margin-bottom: 20px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-integration-list-icon-icon ul li {
+	.Ligh4Med-integration-list-icon-icon ul li {
 		margin-bottom: 20px;
 	}
 }
-.sofax-integration-list-icon-icon ul li img {
+.Ligh4Med-integration-list-icon-icon ul li img {
 	margin-right: 12px;
 }
 
@@ -6512,23 +6512,23 @@ a.sofax-connect-login img {
 }
 
 /* Accordion one */
-.sofax-accordion-wrap {
+.Ligh4Med-accordion-wrap {
 	margin-left: 50px;
 	margin-right: 3px;
 }
 @media (max-width: 1199px) {
-	.sofax-accordion-wrap {
+	.Ligh4Med-accordion-wrap {
 		margin-left: 0;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-accordion-wrap {
+	.Ligh4Med-accordion-wrap {
 		margin-top: 30px;
 	}
 }
 
 /* bootstrap accordion overwrite start */
-.sofax-accordion-wrap1 .accordion-item {
+.Ligh4Med-accordion-wrap1 .accordion-item {
 	padding: 24px;
 	position: relative;
 	margin-bottom: 24px;
@@ -6536,24 +6536,24 @@ a.sofax-connect-login img {
 	transition: all 0.4s;
 	border: 1px solid var(--light-color);
 }
-.sofax-accordion-wrap1 h3.accordion-header {
+.Ligh4Med-accordion-wrap1 h3.accordion-header {
 	font-size: 24px;
 	font-weight: 700;
 	display: flex;
 }
 @media (max-width: 767px) {
-	.sofax-accordion-wrap1 h3.accordion-header {
+	.Ligh4Med-accordion-wrap1 h3.accordion-header {
 		padding-right: 25px;
 	}
 }
-.sofax-accordion-wrap1 .accordion-button {
+.Ligh4Med-accordion-wrap1 .accordion-button {
 	background: none;
 	font-size: inherit;
 	font-weight: 700;
 	color: var(--heading-color);
 	padding: 0;
 }
-.sofax-accordion-wrap1 .accordion-icon {
+.Ligh4Med-accordion-wrap1 .accordion-icon {
 	background-color: var(--accent-color);
 	border-radius: 50%;
 	width: 30px;
@@ -6563,64 +6563,64 @@ a.sofax-connect-login img {
 	padding: 3px;
 	transition: all 0.4s;
 }
-.sofax-accordion-wrap1 .accordion-icon img {
+.Ligh4Med-accordion-wrap1 .accordion-icon img {
 	width: 65%;
 }
-.sofax-accordion-wrap1 .accordion-body {
+.Ligh4Med-accordion-wrap1 .accordion-body {
 	padding: 0;
 	padding-top: 15px;
 	color: rgb(60, 60, 60);
 }
 @media (max-width: 991px) {
-	.sofax-accordion-wrap1 .accordion-body {
+	.Ligh4Med-accordion-wrap1 .accordion-body {
 		padding: 24px 0 0;
 	}
 }
 
-.sofax-accordion-wrap1 .accordion-button:not(.collapsed) {
+.Ligh4Med-accordion-wrap1 .accordion-button:not(.collapsed) {
 	background: none;
 	box-shadow: none;
 }
-.sofax-accordion-wrap1 .accordion-item:has(.accordion-collapse.show) {
+.Ligh4Med-accordion-wrap1 .accordion-item:has(.accordion-collapse.show) {
 	border: 1px solid #fff;
 	box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.0784313725);
 }
-.sofax-accordion-wrap1 .accordion-button:not(.collapsed) + .accordion-icon {
+.Ligh4Med-accordion-wrap1 .accordion-button:not(.collapsed) + .accordion-icon {
 	transform: rotate(180deg);
 }
-.sofax-accordion-wrap1 .accordion-button::after {
+.Ligh4Med-accordion-wrap1 .accordion-button::after {
 	display: none;
 }
 
 /* bootstrap accordion overwrite end */
 
-.sofax-accordion-wrap2 .sofax-accordion-item.open {
+.Ligh4Med-accordion-wrap2 .Ligh4Med-accordion-item.open {
 	border: 1px solid var(--light-color2);
 	box-shadow: none;
 }
-.sofax-accordion-wrap3 .sofax-accordion-item.open {
+.Ligh4Med-accordion-wrap3 .Ligh4Med-accordion-item.open {
 	border: 1px solid var(--dark-bg);
 	background: var(--dark-bg);
 	box-shadow: none;
 }
-.sofax-accordion-wrap3 .sofax-accordion-item.open h4 {
+.Ligh4Med-accordion-wrap3 .Ligh4Med-accordion-item.open h4 {
 	color: var(--white-bg);
 }
-.sofax-accordion-wrap3 .sofax-accordion-item.open p {
+.Ligh4Med-accordion-wrap3 .Ligh4Med-accordion-item.open p {
 	color: var(--white-bg);
 }
 
-.sofax-accordion-wrapper {
+.Ligh4Med-accordion-wrapper {
 	display: flex;
 	gap: 24px;
 }
 @media (max-width: 991px) {
-	.sofax-accordion-wrapper {
+	.Ligh4Med-accordion-wrapper {
 		display: block;
 	}
 }
 
-.sofax-active-icon {
+.Ligh4Med-active-icon {
 	transition: all 0.4s;
 	display: flex;
 	width: 26px;
@@ -6634,21 +6634,21 @@ a.sofax-connect-login img {
 	justify-content: center;
 	background-color: var(--accent-color);
 }
-.sofax-active-icon.sofax-accordion-btn img {
+.Ligh4Med-active-icon.Ligh4Med-accordion-btn img {
 	width: 12px;
 }
 
-.sofax-accordion-section-wrapper {
+.Ligh4Med-accordion-section-wrapper {
 	display: flex;
 	gap: 24px;
 }
 @media (max-width: 991px) {
-	.sofax-accordion-section-wrapper {
+	.Ligh4Med-accordion-section-wrapper {
 		display: block;
 	}
 }
 
-.sofax-accordion-section-v2 {
+.Ligh4Med-accordion-section-v2 {
 	flex: 0 0 50%;
 }
 
@@ -6658,14 +6658,14 @@ a.sofax-connect-login img {
 	padding: 0;
 }
 
-.sofax-accordion-item.open .version-6-faq {
+.Ligh4Med-accordion-item.open .version-6-faq {
 	transform: none !important;
 	background-color: var(--white-bg);
 }
-.sofax-accordion-item.open .version-6-faq img.plasicon {
+.Ligh4Med-accordion-item.open .version-6-faq img.plasicon {
 	opacity: 0 !important;
 }
-.sofax-accordion-item.open .version-6-faq img.mynusicon {
+.Ligh4Med-accordion-item.open .version-6-faq img.mynusicon {
 	opacity: 1;
 	margin-right: 22px;
 	margin-top: 2px;
@@ -6681,32 +6681,32 @@ img.plasicon {
 	margin-left: 10px;
 }
 
-.sofax-accordion-headerv7 {
+.Ligh4Med-accordion-headerv7 {
 	cursor: pointer;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 }
 
-.sofax-accordion-wrapperv7 {
+.Ligh4Med-accordion-wrapperv7 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.sofax-accordion-item-v7.open .sofax-accordion-body-v7 {
+.Ligh4Med-accordion-item-v7.open .Ligh4Med-accordion-body-v7 {
 	display: block;
 }
 
-.sofax-accordion-item.open .version7 {
+.Ligh4Med-accordion-item.open .version7 {
 	transform: rotate(180deg);
 }
 
-.sofax-accordion-item-v7.open .sofax-active-icon-v7 {
+.Ligh4Med-accordion-item-v7.open .Ligh4Med-active-icon-v7 {
 	transform: rotate(180deg);
 }
 
-.sofax-active-icon-v7 {
+.Ligh4Med-active-icon-v7 {
 	background: var(--white-bg);
 	transition: all 0.4s;
 	display: flex;
@@ -6728,19 +6728,19 @@ img.plasicon {
 	padding-bottom: 12px;
 }
 
-.sofax-accordion-item-v7 {
+.Ligh4Med-accordion-item-v7 {
 	padding: 23px 24px;
 	position: relative;
 	margin-bottom: 24px;
 	transition: all 0.4s;
 }
 
-.sofax-accordion-body-v7 {
+.Ligh4Med-accordion-body-v7 {
 	padding: 10px 0 0 40px;
 	display: none;
 }
 
-.sofax-accordion-item.contentv7.open {
+.Ligh4Med-accordion-item.contentv7.open {
 	border: none;
 	box-shadow: none !important;
 }
@@ -6754,20 +6754,20 @@ img.plasicon {
 	padding-left: 40px;
 }
 
-.sofax-features-box {
+.Ligh4Med-features-box {
 	border: 1px solid var(--light-color);
 	border-radius: 10px;
 	padding: 27px;
 	margin-bottom: 24px;
 	transition: all 0.4s;
 }
-.sofax-features-icon {
+.Ligh4Med-features-icon {
 	margin-bottom: 30px;
 }
-.sofax-features-content h4 {
+.Ligh4Med-features-content h4 {
 	margin-bottom: 15px;
 }
-.sofax-features-content p {
+.Ligh4Med-features-content p {
 	font-size: 20px;
 }
 
@@ -6784,50 +6784,50 @@ img.plasicon {
 	box-shadow: 5px 5px 0 0 #0e0e0e;
 }
 
-.sofax-features-boxv6 {
+.Ligh4Med-features-boxv6 {
 	padding: 30px;
 	background: var(--white-color);
 	border-radius: 5px;
 }
-.sofax-features-imgv6 img {
+.Ligh4Med-features-imgv6 img {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 	border-radius: 10px;
 }
-.sofax-features-author-data h4 {
+.Ligh4Med-features-author-data h4 {
 	padding: 30px 0 15px 0;
 }
-.sofax-features-author-data p {
+.Ligh4Med-features-author-data p {
 	color: var(--body-color);
 }
 
-.sofax-features-boxv6:hover .sofax-features-imgv6 img {
+.Ligh4Med-features-boxv6:hover .Ligh4Med-features-imgv6 img {
 	transform: scale(1.1);
 }
-.sofax-features-boxv6 .sofax-features-imgv6 {
+.Ligh4Med-features-boxv6 .Ligh4Med-features-imgv6 {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 	border-radius: 10px;
 	overflow: hidden;
 }
-.sofax-features-boxv6 .sofax-features-imgv6 img {
+.Ligh4Med-features-boxv6 .Ligh4Med-features-imgv6 img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: all 0.8s;
 }
 
-.sofax-features-boxv7 {
+.Ligh4Med-features-boxv7 {
 	border: 1px solid var(--light-color2);
 	border-radius: 5px;
 	padding: 30px;
 	margin-bottom: 24px;
 }
-.sofax-features-iconv7 {
+.Ligh4Med-features-iconv7 {
 	margin-bottom: 24px;
 }
-.sofax-features-contentv7 h4 {
+.Ligh4Med-features-contentv7 h4 {
 	margin-bottom: 12px;
 }
-.sofax-features-contentv7 p {
+.Ligh4Med-features-contentv7 p {
 	margin-bottom: 0 !important;
 }
 
@@ -6848,158 +6848,158 @@ img.plasicon {
 	margin-bottom: 10px !important;
 }
 
-.sofax-features-wrapv8 {
+.Ligh4Med-features-wrapv8 {
 	display: flex;
 }
 @media (max-width: 991px) {
-	.sofax-features-wrapv8 {
+	.Ligh4Med-features-wrapv8 {
 		display: block;
 	}
 }
-.sofax-features-boxv8 {
+.Ligh4Med-features-boxv8 {
 	border: 1px solid var(--light-color);
 	padding: 30px;
 }
 @media (max-width: 991px) {
-	.sofax-features-boxv8 {
+	.Ligh4Med-features-boxv8 {
 		margin-bottom: 24px;
 	}
 }
 
-.sofax-section-padding {
+.Ligh4Med-section-padding {
 	padding: 130px 0 106px;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding {
+	.Ligh4Med-section-padding {
 		padding: 100px 0 76px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding {
+	.Ligh4Med-section-padding {
 		padding: 80px 0 56px;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-section-padding {
+	.Ligh4Med-section-padding {
 		padding: 60px 0 32px;
 	}
 }
 
-.sofax-section-padding2 {
+.Ligh4Med-section-padding2 {
 	padding: 130px 0;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding2 {
+	.Ligh4Med-section-padding2 {
 		padding: 90px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding2 {
+	.Ligh4Med-section-padding2 {
 		padding: 60px 0;
 	}
 }
 
-.sofax-section-padding3 {
+.Ligh4Med-section-padding3 {
 	padding: 0 0 130px;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding3 {
+	.Ligh4Med-section-padding3 {
 		padding: 0 0 90px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding3 {
+	.Ligh4Med-section-padding3 {
 		padding: 0 0 60px;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-section-padding3 {
+	.Ligh4Med-section-padding3 {
 		padding: 0 0 40px;
 	}
 }
 
-.sofax-section-padding4 {
+.Ligh4Med-section-padding4 {
 	padding: 180px 0 100px;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding4 {
+	.Ligh4Med-section-padding4 {
 		padding: 160px 0 60px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding4 {
+	.Ligh4Med-section-padding4 {
 		padding: 120px 0 40px;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-section-padding4 {
+	.Ligh4Med-section-padding4 {
 		padding: 100px 0 30px;
 	}
 }
 
-.sofax-section-padding5 {
+.Ligh4Med-section-padding5 {
 	padding-top: 130px;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding5 {
+	.Ligh4Med-section-padding5 {
 		padding-top: 100px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding5 {
+	.Ligh4Med-section-padding5 {
 		padding-top: 70px;
 	}
 }
 
-.sofax-section-padding6 {
+.Ligh4Med-section-padding6 {
 	padding-top: 190px;
 }
 @media (max-width: 991px) {
-	.sofax-section-padding6 {
+	.Ligh4Med-section-padding6 {
 		padding-top: 160px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-padding6 {
+	.Ligh4Med-section-padding6 {
 		padding-top: 120px;
 	}
 }
 
-.sofax-section-title {
+.Ligh4Med-section-title {
 	padding-bottom: 80px;
 }
-.sofax-section-title p {
+.Ligh4Med-section-title p {
 	font-size: 20px;
 }
 @media (max-width: 991px) {
-	.sofax-section-title {
+	.Ligh4Med-section-title {
 		padding-bottom: 60px;
 		text-align: center;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-section-title {
+	.Ligh4Med-section-title {
 		padding-bottom: 40px;
 	}
 }
-.sofax-section-title.center {
+.Ligh4Med-section-title.center {
 	max-width: 650px;
 	margin: 0 auto;
 	text-align: center;
 }
-.sofax-section-title.center.max-width-medium {
+.Ligh4Med-section-title.center.max-width-medium {
 	max-width: 800px;
 }
-.sofax-section-title.center.max-width700 {
+.Ligh4Med-section-title.center.max-width700 {
 	max-width: 700px;
 }
-.sofax-section-title.center.max-width-large {
+.Ligh4Med-section-title.center.max-width-large {
 	max-width: 830px;
 }
-.sofax-section-title.center.max-width-large2 {
+.Ligh4Med-section-title.center.max-width-large2 {
 	max-width: 730px;
 }
-.sofax-section-title.center.max-width-large3 {
+.Ligh4Med-section-title.center.max-width-large3 {
 	max-width: 715px;
 }
 
@@ -7035,7 +7035,7 @@ img.plasicon {
 }
 
 @media (max-width: 991px) {
-	.sofax-title-btn {
+	.Ligh4Med-title-btn {
 		width: 100%;
 		text-align: center;
 		margin-top: 30px;
@@ -7061,7 +7061,7 @@ img.plasicon {
 	}
 }
 
-.sofax-default-content h2 {
+.Ligh4Med-default-content h2 {
 	margin-bottom: 20px;
 }
 
@@ -7230,16 +7230,16 @@ img.plasicon {
 }
 
 @media (max-width: 991px) {
-	.sofax-aboutus-section-title {
+	.Ligh4Med-aboutus-section-title {
 		text-align: center;
 	}
 }
 
-.sofax-aboutus-content-text {
+.Ligh4Med-aboutus-content-text {
 	margin-left: 115px;
 }
 @media (max-width: 991px) {
-	.sofax-aboutus-content-text {
+	.Ligh4Med-aboutus-content-text {
 		margin-left: 0;
 		padding-top: 30px;
 		text-align: center;
@@ -7276,21 +7276,21 @@ img.plasicon {
 	}
 }
 
-.sofax-error-content {
+.Ligh4Med-error-content {
 	text-align: center;
 	max-width: 780px;
 	margin: 0 auto;
 }
-.sofax-error-content img {
+.Ligh4Med-error-content img {
 	margin-bottom: 80px;
 }
 @media (max-width: 991px) {
-	.sofax-error-content img {
+	.Ligh4Med-error-content img {
 		margin-bottom: 60px;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-error-content img {
+	.Ligh4Med-error-content img {
 		margin-bottom: 40px;
 	}
 }
@@ -7351,21 +7351,21 @@ img.plasicon {
 	transform: translate(-50%, -50%);
 }
 
-.sofax-integration-slider-icon-data-wrap.slick-initialized.slick-slider {
+.Ligh4Med-integration-slider-icon-data-wrap.slick-initialized.slick-slider {
 	direction: rtl;
 }
 
-.sofax-integration-slider-icon {
+.Ligh4Med-integration-slider-icon {
 	margin-bottom: 24px;
 	padding: 0 15px;
 }
 
-.sofax-testimonial-slider-2.slick-initialized.slick-slider {
+.Ligh4Med-testimonial-slider-2.slick-initialized.slick-slider {
 	direction: rtl;
 }
 
-/*  sofax services section v3 */
-.sofax-service-iconbox-wrap {
+/*  Ligh4Med services section v3 */
+.Ligh4Med-service-iconbox-wrap {
 	display: flex;
 	background-color: #fff;
 	border-radius: 5px;
@@ -7375,122 +7375,122 @@ img.plasicon {
 	align-items: center;
 }
 @media (max-width: 767px) {
-	.sofax-service-iconbox-wrap {
+	.Ligh4Med-service-iconbox-wrap {
 		display: block;
 	}
 }
-.sofax-service-iconbox-wrap.version7 {
+.Ligh4Med-service-iconbox-wrap.version7 {
 	border: 1px solid var(--light-color2);
 }
-.sofax-service-iconbox-data h4 {
+.Ligh4Med-service-iconbox-data h4 {
 	margin-bottom: 15px;
 }
-.sofax-service-iconbox-data p {
+.Ligh4Med-service-iconbox-data p {
 	font-size: 20px;
 }
-.sofax-service-iconbox-icon {
+.Ligh4Med-service-iconbox-icon {
 	flex-shrink: 0;
 }
 @media (max-width: 767px) {
-	.sofax-service-iconbox-icon {
+	.Ligh4Med-service-iconbox-icon {
 		margin-top: 24px;
 	}
 }
 
-.sofax-service-table-item {
+.Ligh4Med-service-table-item {
 	display: flex;
 	padding: 35px 0;
 	border-bottom: 1px solid #eaedf0;
 }
-.sofax-service-table-item:first-child {
+.Ligh4Med-service-table-item:first-child {
 	padding-top: 0;
 }
-.sofax-service-table-item:last-child {
+.Ligh4Med-service-table-item:last-child {
 	padding-bottom: 0;
 	border: none;
 }
 @media (max-width: 991px) {
-	.sofax-service-table-item {
+	.Ligh4Med-service-table-item {
 		display: block;
 	}
 }
-.sofax-service-table-title {
+.Ligh4Med-service-table-title {
 	flex: 0 0 36%;
 }
-.sofax-service-table-title h3 {
+.Ligh4Med-service-table-title h3 {
 	margin: 0;
 	font-size: 35px;
 }
 @media (max-width: 1199px) {
-	.sofax-service-table-title h3 {
+	.Ligh4Med-service-table-title h3 {
 		font-size: 28px;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-service-table-title h3 {
+	.Ligh4Med-service-table-title h3 {
 		font-size: 30px;
 	}
 }
-.sofax-service-table-body {
+.Ligh4Med-service-table-body {
 	flex: 0 0 45%;
 	padding: 0 30px;
 }
 @media (max-width: 991px) {
-	.sofax-service-table-body {
+	.Ligh4Med-service-table-body {
 		padding: 24px 0;
 	}
 }
-.sofax-service-table-body p {
+.Ligh4Med-service-table-body p {
 	font-size: 20px;
 }
-.sofax-service-table-btn {
+.Ligh4Med-service-table-btn {
 	flex: 0 0 19%;
 	text-align: right;
 }
 @media (max-width: 991px) {
-	.sofax-service-table-btn {
+	.Ligh4Med-service-table-btn {
 		text-align: left;
 	}
 }
-.sofax-service-table-btn .sofax-default-btn.outline-btn {
+.Ligh4Med-service-table-btn .Ligh4Med-default-btn.outline-btn {
 	padding: 17px 60px;
 }
-.sofax-service-table-btn:hover .sofax-default-btn.outline-btn {
+.Ligh4Med-service-table-btn:hover .Ligh4Med-default-btn.outline-btn {
 	background-color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
-.sofax-service-table-titlev5 {
+.Ligh4Med-service-table-titlev5 {
 	flex: 0 0 42% !important;
 }
 @media (max-width: 1199px) {
-	.sofax-service-table-titlev5 {
+	.Ligh4Med-service-table-titlev5 {
 		font-size: 30px;
 	}
 }
-.sofax-service-table-bodyv5 {
+.Ligh4Med-service-table-bodyv5 {
 	flex: 0 0 46%;
 	padding: 0 38px !important;
 }
 @media (max-width: 991px) {
-	.sofax-service-table-bodyv5 {
+	.Ligh4Med-service-table-bodyv5 {
 		padding: 24px 0 !important;
 	}
 }
-.sofax-service-table-bodyv5 p {
+.Ligh4Med-service-table-bodyv5 p {
 	font-size: 20px !important;
 }
-.sofax-service-table-btnv5 {
+.Ligh4Med-service-table-btnv5 {
 	flex: 0 0 12% !important;
 	display: flex;
 	justify-content: end;
 }
 @media (max-width: 991px) {
-	.sofax-service-table-btnv5 {
+	.Ligh4Med-service-table-btnv5 {
 		justify-content: start;
 		display: block;
 	}
 }
-.sofax-service-table-btnv5 .p15 {
+.Ligh4Med-service-table-btnv5 .p15 {
 	padding: 15px !important;
 	width: 80px !important;
 	height: 80px !important;
@@ -7499,51 +7499,51 @@ img.plasicon {
 	align-items: center;
 }
 @media (max-width: 1199px) {
-	.sofax-service-table-btnv5 .p15 {
+	.Ligh4Med-service-table-btnv5 .p15 {
 		width: 65px !important;
 		height: 65px !important;
 	}
 }
 @media (max-width: 991px) {
-	.sofax-service-table-btnv5 .p15 {
+	.Ligh4Med-service-table-btnv5 .p15 {
 		width: 60px !important;
 		height: 60px !important;
 	}
 }
 
-.sofax-service-slider {
+.Ligh4Med-service-slider {
 	background: var(--dark-bg);
 	padding: 50px 0;
 }
 @media (max-width: 991px) {
-	.sofax-service-slider {
+	.Ligh4Med-service-slider {
 		padding: 30px 0;
 	}
 }
-.sofax-service-slider-wrap {
+.Ligh4Med-service-slider-wrap {
 	display: flex !important;
 	gap: 30px;
 	margin-right: 24px;
 	align-items: center;
 }
-.sofax-service-slider-icon {
+.Ligh4Med-service-slider-icon {
 	display: flex;
 	flex-shrink: 0;
 	align-items: center;
 	animation: animName 3s linear infinite;
 }
-.sofax-service-slider-data {
+.Ligh4Med-service-slider-data {
 	flex-shrink: 0;
 	margin-right: 60px;
 }
-.sofax-service-slider-data h2 {
+.Ligh4Med-service-slider-data h2 {
 	white-space: nowrap;
 }
 
-.sofax-slider-service-section .slick-slide {
+.Ligh4Med-slider-service-section .slick-slide {
 	width: auto !important;
 }
-.sofax-slider-service-section .slick-track {
+.Ligh4Med-slider-service-section .slick-track {
 	display: flex;
 }
 
@@ -7561,25 +7561,25 @@ img.plasicon {
 	color: var(--light-color) !important;
 }
 
-.sofax-inner-service-details h2 {
+.Ligh4Med-inner-service-details h2 {
 	max-width: 850px;
 }
-.sofax-inner-service-details p {
+.Ligh4Med-inner-service-details p {
 	font-size: 20px;
 	margin-bottom: 30px;
 }
 
-.sofax-inner-service-content-data {
+.Ligh4Med-inner-service-content-data {
 	margin-bottom: 24px;
 }
-.sofax-inner-service-content-data:last-child {
+.Ligh4Med-inner-service-content-data:last-child {
 	margin-bottom: 0;
 }
-.sofax-inner-service-content-data h4 {
+.Ligh4Med-inner-service-content-data h4 {
 	margin-bottom: 15px;
 }
 
-.sofax-service-wrapv9 {
+.Ligh4Med-service-wrapv9 {
 	border: 1px solid var(--light-color2);
 	border-radius: 5px;
 	padding: 30px;
@@ -7587,7 +7587,7 @@ img.plasicon {
 	gap: 25px;
 	margin-bottom: 24px;
 }
-.sofax-service-textv9 h3 {
+.Ligh4Med-service-textv9 h3 {
 	margin-bottom: 15px;
 }
 
@@ -7602,12 +7602,12 @@ img.plasicon {
 	margin-bottom: 35px;
 }
 
-.sofax-about-content-wrap {
+.Ligh4Med-about-content-wrap {
 	display: flex;
 	gap: 30px;
 }
 @media (max-width: 767px) {
-	.sofax-about-content-wrap {
+	.Ligh4Med-about-content-wrap {
 		flex-direction: column;
 	}
 }
@@ -7621,24 +7621,24 @@ img.plasicon {
 	margin-top: -75px;
 }
 
-.sofax-about-wrapperv10 .active {
+.Ligh4Med-about-wrapperv10 .active {
 	border-bottom: 1px solid var(--accent-color) !important;
 }
 @media (max-width: 767px) {
-	.sofax-about-wrapperv10 .active {
+	.Ligh4Med-about-wrapperv10 .active {
 		border-bottom: var(--body-color) !important;
 	}
 }
-.sofax-about-icon-content-wrapv10 {
+.Ligh4Med-about-icon-content-wrapv10 {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 }
-.sofax-about-datav10 {
+.Ligh4Med-about-datav10 {
 	margin-top: 30px;
 }
 @media (max-width: 767px) {
-	.sofax-about-datav10 {
+	.Ligh4Med-about-datav10 {
 		margin-top: 0;
 	}
 }
@@ -7655,27 +7655,27 @@ img.plasicon {
 	align-items: center !important;
 }
 
-.sofax-about-wrapv10 ul li a {
+.Ligh4Med-about-wrapv10 ul li a {
 	display: flex;
 	align-items: center;
 	gap: 24px;
 	padding-bottom: 30px;
 }
 
-.sofax-about-wrapv10 .nav-tabs {
+.Ligh4Med-about-wrapv10 .nav-tabs {
 	justify-content: space-between;
 }
 @media (max-width: 767px) {
-	.sofax-about-wrapv10 .nav-tabs {
+	.Ligh4Med-about-wrapv10 .nav-tabs {
 		border-bottom: var(--body-color) !important;
 	}
 }
 
-.sofax-blog-wrap-v4:hover .sofax-blog-img img {
+.Ligh4Med-blog-wrap-v4:hover .Ligh4Med-blog-img img {
 	transform: scale(1.1);
 }
 
-.sofax-blog-wrap-v4 {
+.Ligh4Med-blog-wrap-v4 {
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 	border-radius: 10px;
 	background: #f9f9fa;
@@ -7683,133 +7683,133 @@ img.plasicon {
 	padding: 20px;
 	cursor: pointer;
 }
-.sofax-blog-wrap-v4:hover {
+.Ligh4Med-blog-wrap-v4:hover {
 	background-color: var(--white-bg);
 }
-.sofax-blog-meta {
+.Ligh4Med-blog-meta {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	padding: 24px 0 15px 0;
 }
-.sofax-blog-meta ul li {
+.Ligh4Med-blog-meta ul li {
 	color: var(--body-color);
 }
 @media (max-width: 991px) {
-	.sofax-blog-meta img {
+	.Ligh4Med-blog-meta img {
 		width: 100%;
 	}
 }
-.sofax-blog-content h4 {
+.Ligh4Med-blog-content h4 {
 	margin-bottom: 30px;
 	font-size: 22px !important;
 }
-.sofax-blog-img {
+.Ligh4Med-blog-img {
 	overflow: hidden;
 }
-.sofax-blog-img img {
+.Ligh4Med-blog-img img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: all 0.8s;
 }
 @media (max-width: 991px) {
-	.sofax-blog-img {
+	.Ligh4Med-blog-img {
 		text-align: center;
 	}
 }
 
-.sofax-inner-blog-wrap:hover .sofax-inner-blog-img img {
+.Ligh4Med-inner-blog-wrap:hover .Ligh4Med-inner-blog-img img {
 	transform: scale(1.1);
 }
-.sofax-inner-blog-wrap .sofax-inner-blog-img {
+.Ligh4Med-inner-blog-wrap .Ligh4Med-inner-blog-img {
 	overflow: hidden;
 }
-.sofax-inner-blog-wrap .sofax-inner-blog-img img {
+.Ligh4Med-inner-blog-wrap .Ligh4Med-inner-blog-img img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: all 0.8s;
 }
 
-.sofax-inner-blog-wrap {
+.Ligh4Med-inner-blog-wrap {
 	border: 1px solid var(--dark-bg);
 	padding: 30px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
-.sofax-inner-blog-img img {
+.Ligh4Med-inner-blog-img img {
 	width: 100%;
 }
-.sofax-inner-blog-meta a {
+.Ligh4Med-inner-blog-meta a {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	padding: 30px 0 24px 0;
 }
-.sofax-inner-blog-meta a h5 {
+.Ligh4Med-inner-blog-meta a h5 {
 	background: var(--dark-bg);
 	color: var(--white-color);
 	padding: 12px 15px;
 	border-radius: 5px;
 }
-.sofax-inner-blog-meta a ul li {
+.Ligh4Med-inner-blog-meta a ul li {
 	font-size: 20px;
 	line-height: 28px;
 	color: var(--body-color);
 }
 @media (max-width: 991px) {
-	.sofax-inner-blog-meta img {
+	.Ligh4Med-inner-blog-meta img {
 		width: 100%;
 	}
 }
-.sofax-inner-blog-text h3 {
+.Ligh4Med-inner-blog-text h3 {
 	margin-bottom: 15px;
 }
 @media (max-width: 767px) {
-	.sofax-inner-blog-text h3 {
+	.Ligh4Med-inner-blog-text h3 {
 		font-size: 28px !important;
 	}
 }
-.sofax-inner-blog-text p {
+.Ligh4Med-inner-blog-text p {
 	font-size: 19px !important;
 	margin-bottom: 24px;
 }
 
-.sofax-inner-blog-details-img {
+.Ligh4Med-inner-blog-details-img {
 	margin-bottom: 40px;
 }
-.sofax-inner-blog-details-img img {
+.Ligh4Med-inner-blog-details-img img {
 	width: 100%;
 }
-.sofax-inner-blog-details-content {
+.Ligh4Med-inner-blog-details-content {
 	margin-bottom: 30px;
 }
-.sofax-inner-blog-details-content h3 {
+.Ligh4Med-inner-blog-details-content h3 {
 	margin-bottom: 15px;
 }
-.sofax-inner-blog-details-content-data {
+.Ligh4Med-inner-blog-details-content-data {
 	margin-bottom: 24px;
 }
-.sofax-inner-blog-details-content-data:last-child {
+.Ligh4Med-inner-blog-details-content-data:last-child {
 	padding-bottom: 40px;
 	border-bottom: 1px solid var(--light-color);
 	margin-bottom: 40px;
 }
-.sofax-inner-blog-details-content-data h4 {
+.Ligh4Med-inner-blog-details-content-data h4 {
 	margin-bottom: 10px;
 }
-.sofax-inner-blog-details-content-data p {
+.Ligh4Med-inner-blog-details-content-data p {
 	font-size: 20px;
 }
-.sofax-inner-blog-details-content2 {
+.Ligh4Med-inner-blog-details-content2 {
 	background: var(--dark-bg);
 	padding: 30px;
 	border-radius: 10px;
 	margin-bottom: 30px;
 }
 
-.sofax-blog-tag-wrapper {
+.Ligh4Med-blog-tag-wrapper {
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 40px;
@@ -7817,20 +7817,20 @@ img.plasicon {
 	margin-bottom: 40px;
 	flex-wrap: wrap;
 }
-.sofax-blog-tag-wrap h4 {
+.Ligh4Med-blog-tag-wrap h4 {
 	margin-bottom: 24px;
 }
-.sofax-blog-tag-wrap ul li {
+.Ligh4Med-blog-tag-wrap ul li {
 	display: inline-block;
 	margin: 0 5px 5px 0px;
 }
 
-.sofax-post-navigation-wrap {
+.Ligh4Med-post-navigation-wrap {
 	display: flex;
 	gap: 24px;
 	max-width: 300px;
 }
-.sofax-post-navigation-wrap .title-post-content ul li {
+.Ligh4Med-post-navigation-wrap .title-post-content ul li {
 	font-size: 15px !important;
 	line-height: 16px;
 	font-weight: 400;
@@ -7857,7 +7857,7 @@ img.plasicon {
 	gap: 10px;
 }
 
-.sofax-post-navigation-wrapper {
+.Ligh4Med-post-navigation-wrapper {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -7866,62 +7866,62 @@ img.plasicon {
 	margin-bottom: 40px;
 }
 
-.sofax-post-comment h3 {
+.Ligh4Med-post-comment h3 {
 	margin-bottom: 30px;
 }
-.sofax-post-comment ul li {
+.Ligh4Med-post-comment ul li {
 	margin-bottom: 30px;
 }
-.sofax-post-comment ul li.children {
+.Ligh4Med-post-comment ul li.children {
 	padding-left: 80px;
 }
 @media (max-width: 767px) {
-	.sofax-post-comment ul li.children {
+	.Ligh4Med-post-comment ul li.children {
 		padding-left: 0;
 	}
 }
-.sofax-post-comment ul li .children2 {
+.Ligh4Med-post-comment ul li .children2 {
 	border-top: 1px solid var(--light-color);
 	padding-top: 30px;
 	border-bottom: 1px solid var(--light-color);
 	padding-bottom: 30px;
 }
-.sofax-post-comment-wrap {
+.Ligh4Med-post-comment-wrap {
 	display: flex;
 	gap: 20px;
 }
-.sofax-post-comment-wrap:last-child {
+.Ligh4Med-post-comment-wrap:last-child {
 	margin-bottom: 40px;
 }
-.sofax-post-comment-data strong {
+.Ligh4Med-post-comment-data strong {
 	display: block;
 	font-weight: 700;
 	font-style: 16px;
 	margin-bottom: 5px;
 	color: var(--dark-bg);
 }
-.sofax-post-comment-data span {
+.Ligh4Med-post-comment-data span {
 	display: block;
 	font-weight: 400;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
-.sofax-post-comment-data p {
+.Ligh4Med-post-comment-data p {
 	font-size: 18px;
 	line-height: 28px;
 }
-.sofax-post-comment-data-wrap {
+.Ligh4Med-post-comment-data-wrap {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.sofax-post-comment-data-wrap ul li a {
+.Ligh4Med-post-comment-data-wrap ul li a {
 	font-weight: 700;
 	font-size: 16px;
 	color: var(--dark-bg);
 	transition: all 0.4s;
 }
-.sofax-post-comment-data-wrap ul li a:hover {
+.Ligh4Med-post-comment-data-wrap ul li a:hover {
 	color: var(--accent-color);
 }
 
@@ -7965,24 +7965,24 @@ img.plasicon {
 	stroke: var(--accent-color);
 }
 
-.sofax-blog-wrap-v9 {
+.Ligh4Med-blog-wrap-v9 {
 	border: 1px solid var(--light-color2);
 	padding: 30px;
 }
-.sofax-blog-wrap-v9 .blog-btn-icon-wrap {
+.Ligh4Med-blog-wrap-v9 .blog-btn-icon-wrap {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.sofax-blog-wrap-v9 .sofax-blog-metav9 {
+.Ligh4Med-blog-wrap-v9 .Ligh4Med-blog-metav9 {
 	display: flex;
 	gap: 24px;
 	padding: 24px 0 24px 0;
 }
-.sofax-blog-wrap-v9 .market-contentv9 p {
+.Ligh4Med-blog-wrap-v9 .market-contentv9 p {
 	margin-bottom: 0 !important;
 }
-.sofax-blog-wrap-v9 .market-contentv9 ul li {
+.Ligh4Med-blog-wrap-v9 .market-contentv9 ul li {
 	color: var(--body-color);
 }
 
@@ -8032,31 +8032,31 @@ img.plasicon {
 	position: absolute;
 }
 
-.sofax-field-box {
+.Ligh4Med-field-box {
 	padding: 40px 30px;
 	border-radius: 30px;
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
-.sofax-field-box h3 {
+.Ligh4Med-field-box h3 {
 	margin-bottom: 30px;
 }
 @media (max-width: 991px) {
-	.sofax-field-box {
+	.Ligh4Med-field-box {
 		padding: 30px;
 		margin: 24px 0 30px 0;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-field-box {
+	.Ligh4Med-field-box {
 		padding: 20px;
 		margin: 24px 0 30px 0;
 	}
 }
 
-.sofax-main-field {
+.Ligh4Med-main-field {
 	margin-bottom: 24px;
 }
-.sofax-main-field label {
+.Ligh4Med-main-field label {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
@@ -8065,12 +8065,12 @@ img.plasicon {
 	margin-bottom: 15px;
 }
 @media (max-width: 767px) {
-	.sofax-main-field label {
+	.Ligh4Med-main-field label {
 		font-size: 18px !important;
 	}
 }
 
-.sofax-form-box input {
+.Ligh4Med-form-box input {
 	padding: 0;
 	height: initial;
 	width: initial;
@@ -8078,7 +8078,7 @@ img.plasicon {
 	display: none;
 	cursor: pointer;
 }
-.sofax-form-box label {
+.Ligh4Med-form-box label {
 	position: relative;
 	cursor: pointer;
 	font-weight: 400;
@@ -8087,11 +8087,11 @@ img.plasicon {
 	color: var(--dark-bg);
 }
 @media (max-width: 767px) {
-	.sofax-form-box label {
+	.Ligh4Med-form-box label {
 		display: block;
 	}
 }
-.sofax-form-box label::before {
+.Ligh4Med-form-box label::before {
 	content: "";
 	-webkit-appearance: none;
 	background-color: transparent;
@@ -8105,7 +8105,7 @@ img.plasicon {
 	margin-top: -2px;
 }
 
-.sofax-form-box input:checked + label:after {
+.Ligh4Med-form-box input:checked + label:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -8118,10 +8118,10 @@ img.plasicon {
 	transform: rotate(45deg);
 }
 
-button#sofax-submit-btn {
+button#Ligh4Med-submit-btn {
 	border-radius: 50px;
 }
-button#sofax-submit-btn:hover {
+button#Ligh4Med-submit-btn:hover {
 	color: var(--white-color) !important;
 	background-color: var(--dark-bg);
 }
@@ -8130,11 +8130,11 @@ button#sofax-submit-btn:hover {
 	margin: 24px 0 0 0 !important;
 }
 
-.sofax-post-comment-thumb img {
+.Ligh4Med-post-comment-thumb img {
 	width: 100%;
 }
 
-.sofax-loading-dots {
+.Ligh4Med-loading-dots {
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -8145,7 +8145,7 @@ button#sofax-submit-btn:hover {
 	justify-content: center;
 	background-color: var(--dark-bg);
 }
-.sofax-loading-dots--dot {
+.Ligh4Med-loading-dots--dot {
 	animation: dot-keyframes 1.5s infinite ease-in-out;
 	background-color: var(--accent-bg);
 	border-radius: 10px;
@@ -8154,10 +8154,10 @@ button#sofax-submit-btn:hover {
 	width: 12px;
 	margin: 0 7px;
 }
-.sofax-loading-dots--dot:nth-child(2) {
+.Ligh4Med-loading-dots--dot:nth-child(2) {
 	animation-delay: 0.5s;
 }
-.sofax-loading-dots--dot:nth-child(3) {
+.Ligh4Med-loading-dots--dot:nth-child(3) {
 	animation-delay: 1s;
 }
 
@@ -8175,7 +8175,7 @@ button#sofax-submit-btn:hover {
 		transform: scale(1, 1);
 	}
 }
-.sofax-preloader-wrap {
+.Ligh4Med-preloader-wrap {
 	position: fixed;
 	z-index: 1222;
 	width: 100%;
@@ -8187,7 +8187,7 @@ button#sofax-submit-btn:hover {
 	align-items: center;
 }
 
-.sofax-preloader {
+.Ligh4Med-preloader {
 	display: inline-block;
 	position: relative;
 	width: 74px;
@@ -8196,7 +8196,7 @@ button#sofax-submit-btn:hover {
 	justify-content: center;
 }
 
-.sofax-preloader div {
+.Ligh4Med-preloader div {
 	position: absolute;
 	top: 33px;
 	width: 13px;
@@ -8206,27 +8206,27 @@ button#sofax-submit-btn:hover {
 	animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
-.sofax-preloader div:nth-child(1) {
+.Ligh4Med-preloader div:nth-child(1) {
 	left: 8px;
-	animation: sofax-preloader1 0.6s infinite;
+	animation: Ligh4Med-preloader1 0.6s infinite;
 }
 
-.sofax-preloader div:nth-child(2) {
+.Ligh4Med-preloader div:nth-child(2) {
 	left: 8px;
-	animation: sofax-preloader2 0.6s infinite;
+	animation: Ligh4Med-preloader2 0.6s infinite;
 }
 
-.sofax-preloader div:nth-child(3) {
+.Ligh4Med-preloader div:nth-child(3) {
 	left: 32px;
-	animation: sofax-preloader2 0.6s infinite;
+	animation: Ligh4Med-preloader2 0.6s infinite;
 }
 
-.sofax-preloader div:nth-child(4) {
+.Ligh4Med-preloader div:nth-child(4) {
 	left: 56px;
-	animation: sofax-preloader3 0.6s infinite;
+	animation: Ligh4Med-preloader3 0.6s infinite;
 }
 
-@keyframes sofax-preloader1 {
+@keyframes Ligh4Med-preloader1 {
 	0% {
 		transform: scale(0);
 	}
@@ -8234,7 +8234,7 @@ button#sofax-submit-btn:hover {
 		transform: scale(1);
 	}
 }
-@keyframes sofax-preloader3 {
+@keyframes Ligh4Med-preloader3 {
 	0% {
 		transform: scale(1);
 	}
@@ -8242,7 +8242,7 @@ button#sofax-submit-btn:hover {
 		transform: scale(0);
 	}
 }
-@keyframes sofax-preloader2 {
+@keyframes Ligh4Med-preloader2 {
 	0% {
 		transform: translate(0, 0);
 	}
@@ -8292,81 +8292,81 @@ button#sofax-submit-btn:hover {
 	font-size: 20px;
 }
 
-.sofax-portfolio-content-wrap {
+.Ligh4Med-portfolio-content-wrap {
 	padding: 0 15px;
 }
-.sofax-portfolio-content-wrap:hover .sofax-portfolio-thumb img {
+.Ligh4Med-portfolio-content-wrap:hover .Ligh4Med-portfolio-thumb img {
 	transform: scale(1.1);
 }
-.sofax-portfolio-content-wrap .sofax-portfolio-thumb {
+.Ligh4Med-portfolio-content-wrap .Ligh4Med-portfolio-thumb {
 	border-style: solid;
 	border-width: 3px 3px 3px 3px;
 	border-color: #0e0e0e;
 	border-radius: 16px;
 	overflow: hidden;
 }
-.sofax-portfolio-content-wrap .sofax-portfolio-thumb img {
+.Ligh4Med-portfolio-content-wrap .Ligh4Med-portfolio-thumb img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	transition: all 0.8s;
 }
 
-.sofax-portfolio-authore {
+.Ligh4Med-portfolio-authore {
 	padding-bottom: 40px;
 	border-bottom: 1px solid var(--light-color);
 	margin-bottom: 40px;
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-authore {
+	.Ligh4Med-portfolio-authore {
 		padding-bottom: 25px;
 		padding-bottom: 25px;
 	}
 }
-.sofax-portfolio-authore-wrap {
+.Ligh4Med-portfolio-authore-wrap {
 	max-width: 700px;
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-authore-wrap {
+	.Ligh4Med-portfolio-authore-wrap {
 		max-width: 100%;
 	}
 }
-.sofax-portfolio-authore-text {
+.Ligh4Med-portfolio-authore-text {
 	margin-bottom: 24px;
 }
-.sofax-portfolio-authore-text:last-child {
+.Ligh4Med-portfolio-authore-text:last-child {
 	margin-bottom: 0;
 }
-.sofax-portfolio-authore-text h4 {
+.Ligh4Med-portfolio-authore-text h4 {
 	margin-bottom: 10px;
 }
 
-.sofax-portfolio-author-wrap {
+.Ligh4Med-portfolio-author-wrap {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
-.sofax-portfolio-author-data h4 {
+.Ligh4Med-portfolio-author-data h4 {
 	margin-bottom: 5px;
 }
-.sofax-portfolio-author-data p {
+.Ligh4Med-portfolio-author-data p {
 	color: var(--body-color);
 }
-.sofax-portfolio-author-icon {
+.Ligh4Med-portfolio-author-icon {
 	align-self: center;
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-author-icon img {
+	.Ligh4Med-portfolio-author-icon img {
 		width: 80%;
 	}
 }
 @media (max-width: 767px) {
-	.sofax-portfolio-author-icon img {
+	.Ligh4Med-portfolio-author-icon img {
 		width: 70%;
 	}
 }
 
-.sofax-portfolio-menu ul li {
+.Ligh4Med-portfolio-menu ul li {
 	display: inline-block;
 	border: 1px solid var(--dark-bg);
 	border-radius: 50px;
@@ -8378,39 +8378,39 @@ button#sofax-submit-btn:hover {
 	color: var(--dark-bg);
 }
 @media (max-width: 991px) {
-	.sofax-portfolio-menu ul li {
+	.Ligh4Med-portfolio-menu ul li {
 		margin-bottom: 24px;
 	}
 }
 @media (max-width: 425px) {
-	.sofax-portfolio-menu ul li {
+	.Ligh4Med-portfolio-menu ul li {
 		margin-left: 15px;
 		padding: 13px 30px;
 	}
-	.sofax-portfolio-menu ul li:nth-child(3) {
+	.Ligh4Med-portfolio-menu ul li:nth-child(3) {
 		margin-bottom: 0;
 	}
 }
-.sofax-portfolio-menu ul li:last-child {
+.Ligh4Med-portfolio-menu ul li:last-child {
 	margin-bottom: 0;
 }
 @media (max-width: 375px) {
-	.sofax-portfolio-menu ul li {
+	.Ligh4Med-portfolio-menu ul li {
 		padding: 15px 55px;
 	}
-	.sofax-portfolio-menu ul li:nth-child(2) {
+	.Ligh4Med-portfolio-menu ul li:nth-child(2) {
 		margin-left: 15px;
 	}
-	.sofax-portfolio-menu ul li:nth-child(3) {
+	.Ligh4Med-portfolio-menu ul li:nth-child(3) {
 		margin-bottom: 24px;
 	}
 }
-.sofax-portfolio-menu ul li.active {
+.Ligh4Med-portfolio-menu ul li.active {
 	background: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
 
-.sofax-portfolio-wrap {
+.Ligh4Med-portfolio-wrap {
 	margin: 0 24px 24px 24px;
 }
 

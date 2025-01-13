@@ -2,33 +2,33 @@
 import CountUp from "react-countup";
 function Counter() {
 	return (
-		<section className="section sofax-section-padding2 dark-bg" id="fact">
-			<div id="sofax-counter"></div>
+		<section className="section Ligh4Med-section-padding2 dark-bg" id="fact">
+			<div id="Ligh4Med-counter"></div>
 			<div className="container">
-				<div className="sofax-counter-wrap">
-					<div className="sofax-counter-data">
+				<div className="Ligh4Med-counter-wrap">
+					<div className="Ligh4Med-counter-data">
 						<h2>
-							$<CountUp end={19} duration={3} redraw={true} enableScrollSpy />k
+							<CountUp end={19} duration={3} redraw={true} enableScrollSpy />k
 						</h2>
-						<p>Total value locked</p>
+						<p>Nombre de Téléchqrgement</p>
 					</div>
-					<div className="sofax-counter-data">
+					<div className="Ligh4Med-counter-data">
 						<h2>
-							$<CountUp end={5} duration={3} redraw={true} enableScrollSpy />k
+							<CountUp end={5} duration={3} redraw={true} enableScrollSpy />
 						</h2>
-						<p>Total trading volume</p>
+						<p>Actualités médicales disponibles</p>
 					</div>
-					<div className="sofax-counter-data">
+					<div className="Ligh4Med-counter-data">
 						<h2>
-							<CountUp end={20} duration={3} redraw={true} enableScrollSpy />%
+							<CountUp end={80} duration={3} redraw={true} enableScrollSpy />%
 						</h2>
-						<p>Lowest trade free</p>
+						<p>Taux de satisfaction des utilisateurs</p>
 					</div>
-					<div className="sofax-counter-data">
+					<div className="Ligh4Med-counter-data">
 						<h2>
-							<CountUp end={100} duration={3} redraw={true} enableScrollSpy />%
+							<CountUp end={100} duration={3} redraw={true} enableScrollSpy />
 						</h2>
-						<p>Swap free cashback</p>
+						<p>Grossesses suivies avec succès</p>
 					</div>
 				</div>
 			</div>

@@ -21,21 +21,20 @@ function Footer() {
 		console.log("Submited Form Data = ", formData);
 	};
 	return (
-		<footer className="sofax-footer-section dark-bg">
+		<footer className="Ligh4Med-footer-section dark-bg">
 			<ToastContainer position="bottom-right" />
 			<div className="container">
-				<div className="sofax-footer-top">
+				<div className="Ligh4Med-footer-top">
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
-							<div className="sofax-footer-wrap mr-15 light-color">
+							<div className="Ligh4Med-footer-wrap mr-15 light-color">
 								<Link href="/multi-page/home-two">
 									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
-									Sofax is best softwere platform manage your sales depends on your specific business
-									needs budget & industry.
+									Ligh4Med est la meilleure plateforme pour gérer votre santé, adaptée à vos besoins spécifiques, à votre budget et à votre mode de vie.
 								</p>
-								<div className="sofax-social-icon">
+								<div className="Ligh4Med-social-icon">
 									<ul>
 										<li>
 											<a target="_blank" href="https://www.twitter.com/">
@@ -122,47 +121,47 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="sofax-footer-menu ml-100 light-color">
+							<div className="Ligh4Med-footer-menu ml-100 light-color">
 								<h5>Company</h5>
 								<ul>
 									<li>
-										<Link href="/about-us">About Us</Link>
+										<Link href="/">About Us</Link>
 									</li>
 									<li>
-										<Link href="/contact-us">Contact US</Link>
+										<Link href="/">Contact US</Link>
 									</li>
 									<li>
-										<Link href="/contact-us">Privacy Policy</Link>
+										<Link href="/">Privacy Policy</Link>
 									</li>
 									<li>
-										<Link href="/terms-and-condition">Terms & Conditions</Link>
+										<Link href="/">Terms & Conditions</Link>
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-2 col-md-4">
-							<div className="sofax-footer-menu ml-50 light-color">
+							<div className="Ligh4Med-footer-menu ml-50 light-color">
 								<h5>Utility pages</h5>
 								<ul>
 									<li>
-										<Link href="/contact-us">Instructions</Link>
+										<Link href="/">Instructions</Link>
 									</li>
 									<li>
-										<Link href="/contact-us">Style guide</Link>
+										<Link href="/">Style guide</Link>
 									</li>
 									<li>
 										<Link href="/error-page">404 Pages</Link>
 									</li>
 									<li>
-										<Link href="/contact-us">Licenses</Link>
+										<Link href="/">Licenses</Link>
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="sofax-footer-menu light-color">
-								<h5>Subscribe to our newsletter</h5>
-								<div className="sofax-subscription-field2">
+							<div className="Ligh4Med-footer-menu light-color">
+								<h5>Abonnez-vous à notre newsletter</h5>
+								<div className="Ligh4Med-subscription-field2">
 									<form onSubmit={handleSubmit(submitForm)}>
 										<Field error={errors.email}>
 											<input
@@ -170,12 +169,12 @@ function Footer() {
 												type="email"
 												name="email"
 												id="email"
-												placeholder="Enter your email address"
+												placeholder="Entrez votre adresse email"
 											/>
 										</Field>
 
-										<button className="sofax-subcribe-btn2 subscription-btn-hover" type="submit">
-											Subscribe now
+										<button className="Ligh4Med-subcribe-btn2 subscription-btn-hover" type="submit">
+											S'abonner
 										</button>
 									</form>
 								</div>

@@ -14,11 +14,11 @@ function HomeTwo() {
 		<>
 			<Hero />
 			<Counter />
-			<Features />
+			{/* <Features /> */}
 			<CtaOne />
 			<AboutOne />
 			<WhyChooseUs />
-			<LogoSlider />
+			{/* <LogoSlider /> */}
 			<Testimonials />
 			<Faq />
 			<CtaTwo />

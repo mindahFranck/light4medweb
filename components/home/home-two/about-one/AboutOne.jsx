@@ -7,7 +7,7 @@ import FadeInRight from "../../../animation/FadeInRight";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 function AboutOne() {
 	return (
-		<section className="section sofax-section-padding2">
+		<section className="section Ligh4Med-section-padding2">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
@@ -16,54 +16,52 @@ function AboutOne() {
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">
-						<div className="sofax-default-content">
+						<div className="Ligh4Med-default-content">
 							<div className="tg-heading-subheading ">
 								<h2 className="tac">
-									<TextSplitFadeIn> Easily trade anytime, anywhere on the go</TextSplitFadeIn>
+									<TextSplitFadeIn>Suivi de santé simplifié, et disponible 
+										 partout</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p className="tac">
-								Our user-friendly mobile app is designed for convenience, ensuring you can execute
-								trades & manage your portfolio effortlessly anytime anywhere.
+								Notre application mobile intuitive est conçue pour votre bien-être, vous permettant de suivre, gérer et améliorer votre santé facilement — à tout moment, où que vous soyez.
 							</p>
 							<div className="extra-mt">
-								<div className="sofax-content-iconbox-wrap">
-									<div className="sofax-iconbox-icon">
-										<Image src={Icon6} alt="Icon6" />
+								<div className="Ligh4Med-content-iconbox-wrap">
+									<div className="Ligh4Med-iconbox-icon">
+										<Image src={Icon6} alt="Icône 6" />
 									</div>
-									<div className="sofax-iconbox-data">
-										<h4>Largest public crypto app</h4>
+									<div className="Ligh4Med-iconbox-data">
+										<h4>Suivi complet de la santé</h4>
 										<p>
-											Buy & sell popular digital currencies, keep track of them in the one place &
-											watch currencies you’re interested.
+											Surveillez vos signes vitaux, définissez des objectifs personnalisés et suivez vos progrès dans un seul et même endroit pour un mode de vie plus sain.
 										</p>
 									</div>
 								</div>
-								<div className="sofax-content-iconbox-wrap">
-									<div className="sofax-iconbox-icon">
-										<Image src={Icon7} alt="Icon" />
+								<div className="Ligh4Med-content-iconbox-wrap">
+									<div className="Ligh4Med-iconbox-icon">
+										<Image src={Icon7} alt="Icône 7" />
 									</div>
-									<div className="sofax-iconbox-data">
-										<h4>Your assets are protected</h4>
+									<div className="Ligh4Med-iconbox-data">
+										<h4>Vos données sont sécurisées</h4>
 										<p>
-											Robust security features, such as two-factor authentication & encryption, to
-											protect users accounts and transactions.
+											Des mesures de sécurité avancées, comme l'authentification à deux facteurs et le chiffrement des données, protègent vos informations sensibles.
 										</p>
 									</div>
 								</div>
-								<div className="sofax-content-iconbox-wrap">
-									<div className="sofax-iconbox-icon">
-										<Image src={Icon8} alt="Icon" />
+								<div className="Ligh4Med-content-iconbox-wrap">
+									<div className="Ligh4Med-iconbox-icon">
+										<Image src={Icon8} alt="Icône 8" />
 									</div>
-									<div className="sofax-iconbox-data">
-										<h4>Get the help you need when you need it</h4>
+									<div className="Ligh4Med-iconbox-data">
+										<h4>Un soutien à tout moment</h4>
 										<p>
-											Leading crypto app with top-notch security and robust asset protection.
-											Access assistance whenever you need it.
+											Accédez à une assistance experte et à des conseils personnalisés à tout moment pour vous aider à rester sur la bonne voie dans votre parcours santé.
 										</p>
 									</div>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>

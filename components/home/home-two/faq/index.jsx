@@ -3,17 +3,17 @@ import FaqAccordion from "./FaqAccordion";
 
 function Faq() {
 	return (
-		<section className="section sofax-section-padding bg-light" id="faq">
+		<section className="section Ligh4Med-section-padding bg-light" id="faq">
 			<div className="container">
-				<div className="sofax-section-title center">
+				<div className="Ligh4Med-section-title center">
 					<div className="tg-heading-subheading">
 						<h2>
-							<TextSplitFadeIn> If you want to know anything asked us </TextSplitFadeIn>
+							<TextSplitFadeIn> Si vous avez des questions, demandez-nous ! </TextSplitFadeIn>
 						</h2>
 					</div>
 				</div>
-				<div className="sofax-accordion-wrap1 sofax-accordion-wrap2">
-					<div className="sofax-accordion-section-wrapper">
+				<div className="Ligh4Med-accordion-wrap1 Ligh4Med-accordion-wrap2">
+					<div className="Ligh4Med-accordion-section-wrapper">
 						<FaqAccordion />
 					</div>
 				</div>

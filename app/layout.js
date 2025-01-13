@@ -27,8 +27,8 @@ import "../public/css/main.css";
 import "../public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Ligh4Med || Application Medicale",
+	description: "Ligh4Med || Est une application d'aide aux utilisateurs dans le domaine de la médécine",
 };
 export default function RootLayout({ children }) {
 	return (

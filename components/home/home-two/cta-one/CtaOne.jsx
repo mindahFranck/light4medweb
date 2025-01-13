@@ -6,7 +6,7 @@ import FadeInUp from "../../../animation/FadeInUp";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 function CtaOne() {
 	return (
-		<section className="section sofax-section-padding2 bg-light">
+		<section className="section Ligh4Med-section-padding2 bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
@@ -15,25 +15,26 @@ function CtaOne() {
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-7">
-						<div className="sofax-default-content tac">
-							<div className="tg-heading-subheading ">
+						<div className="Ligh4Med-default-content tac">
+							<div className="tg-heading-subheading">
 								<h2>
 									<TextSplitFadeIn>
-										Buy, sell & securely store a wide range of cryptocurrencies.
+										Gérez votre santé, suivez vos progrès et accédez à des conseils personnalisés.
 									</TextSplitFadeIn>
 								</h2>
 							</div>
 							<p>
-								You can now manage your cryptocurrencies with ease by buying, selling, storing &
-								transferring them all in one place. Additionally, you can acquire the right to buy or
-								sell stocks for a specific price with no commission fees.
+								Grâce à cette application, suivez facilement vos paramètres de santé, comme votre activité quotidienne, votre qualité de sommeil et vos signes vitaux. Obtenez des informations précieuses sur votre bien-être et prenez des décisions éclairées pour une vie plus saine.
 							</p>
 							<p>
-								Finally, you can buy, sell and securely store a variety of cryptocurrencies with this
-								app and protect your crypto with best-in-className cold storage.
+								Vous aurez également accès à une gamme complète d'outils pour surveiller vos progrès, définir des objectifs de santé personnalisés et rester à jour sur vos rendez-vous et traitements — tout cela sur une plateforme sécurisée.
 							</p>
+							<p>
+								Protégez vos données de santé grâce à des mesures de sécurité de pointe, assurant que vos informations restent privées et accessibles uniquement par vous.
+							</p>
+
 							<FadeInUp className="extra-mt">
-								<Link className="sofax-default-btn pill" data-text="Sign up now" href="/sign-up">
+								<Link className="Ligh4Med-default-btn pill" data-text="Sign up now" href="/sign-up">
 									<span className="button-wraper">Sign up now</span>
 								</Link>
 							</FadeInUp>

@@ -73,17 +73,17 @@ const swiperSettings = {
 
 function AutoSlider() {
 	return (
-		<section className="sofax-service-slider">
-			<div className="sofax-slider-service-section">
+		<section className="Ligh4Med-service-slider">
+			<div className="Ligh4Med-slider-service-section">
 				{
 					<Swiper {...swiperSettings}>
 						{sliderData.map((item) => (
 							<SwiperSlide key={item.id}>
-								<div className="sofax-service-slider-wrap">
-									<div className="sofax-service-slider-icon">
+								<div className="Ligh4Med-service-slider-wrap">
+									<div className="Ligh4Med-service-slider-icon">
 										<Image src={item.img} alt="Icon" />
 									</div>
-									<div className="sofax-service-slider-data light-color">
+									<div className="Ligh4Med-service-slider-data light-color">
 										<h2>{item.txt}</h2>
 									</div>
 								</div>

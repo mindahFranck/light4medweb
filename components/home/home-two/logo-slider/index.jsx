@@ -107,18 +107,18 @@ const swiperSettings = {
 
 function LogoSlider() {
 	return (
-		<div className="section sofax-section-padding2 dark-bg">
-			<div className="sofax-slider-logo-wrap">
+		<div className="section Ligh4Med-section-padding2 dark-bg">
+			<div className="Ligh4Med-slider-logo-wrap">
 				{
 					<Swiper {...swiperSettings}>
 						{sliderData.map((item) => (
 							<SwiperSlide key={item.id}>
-								<div className="sofax-text-slider-wrap">
-									<div className="sofax-text-slider-icon">
+								<div className="Ligh4Med-text-slider-wrap">
+									<div className="Ligh4Med-text-slider-icon">
 										<Image src={item.img} alt={item.title} />
 									</div>
 
-									<div className="sofax-text-slider-data light-color">
+									<div className="Ligh4Med-text-slider-data light-color">
 										<h3>{item.title}</h3>
 									</div>
 								</div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function TestimonialCard({ testimonial: { rating, content, author, designation, img } }) {
 	return (
-		<div className="sofax-t-slider-item">
+		<div className="Ligh4Med-t-slider-item">
 			<div className="row">
 				<div className="col-lg-5">
 					<div className="testimonial-thumb">
@@ -11,8 +11,8 @@ function TestimonialCard({ testimonial: { rating, content, author, designation, 
 					</div>
 				</div>
 				<div className="col-lg-6">
-					<div className="sofax-testimonial-slider-content">
-						<div className="sofax-testimonial-rating">
+					<div className="Ligh4Med-testimonial-slider-content">
+						<div className="Ligh4Med-testimonial-rating">
 							<ul>
 								{[...Array(rating)].map(() => (
 									<li key={crypto.randomUUID()}>

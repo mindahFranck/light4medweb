@@ -76,17 +76,17 @@ const swiperSettings = {
 
 function LogoSlider({ light }) {
 	return (
-		<section className={`sofax-slider-section ${light && "bg-light"}`}>
+		<section className={`Ligh4Med-slider-section ${light && "bg-light"}`}>
 			<div className="container">
-				<div className="sofax-title-section">
+				<div className="Ligh4Med-title-section">
 					<h4>Trusted by 1600+ of the world&apos;s most popular companies</h4>
 				</div>
-				<div className="sofax-brand-slider">
+				<div className="Ligh4Med-brand-slider">
 					{
 						<Swiper {...swiperSettings}>
 							{sliderData.map((item) => (
 								<SwiperSlide key={item.id}>
-									<div className="sofax-logo-icon-item">
+									<div className="Ligh4Med-logo-icon-item">
 										<Image src={item.img} alt="Logo Slider" />
 									</div>
 								</SwiperSlide>

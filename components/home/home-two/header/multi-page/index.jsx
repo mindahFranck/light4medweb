@@ -7,7 +7,7 @@ import HeaderLogo from "../HeaderLogo";
 
 function Header() {
 	return (
-		<header className="site-header sofax-header-section site-header--menu-center bg-white" id="sticky-menu">
+		<header className="site-header Ligh4Med-header-section site-header--menu-center bg-white" id="sticky-menu">
 			<div className="container">
 				<nav className="navbar site-navbar">
 					<HeaderLogo />
@@ -15,7 +15,7 @@ function Header() {
 						<DesktopMenu />
 					</div>
 					<HeaderButton />
-					<MobileNavbar menuItemsData={menuItemsData} title="Sofax" />
+					<MobileNavbar menuItemsData={menuItemsData} title="Ligh4Med" />
 				</nav>
 			</div>
 		</header>

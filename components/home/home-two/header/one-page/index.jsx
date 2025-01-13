@@ -29,7 +29,7 @@ const menuItemsData = [
 
 function Header() {
 	return (
-		<header className="site-header sofax-header-section site-header--menu-center bg-white" id="sticky-menu">
+		<header className="site-header Ligh4Med-header-section site-header--menu-center bg-white" id="sticky-menu">
 			<div className="container">
 				<nav className="navbar site-navbar">
 					<HeaderLogo />
@@ -38,19 +38,19 @@ function Header() {
 							<ul className="site-menu-main">
 								<li className="nav-item">
 									<a href="#hero" className="nav-link-item">
-										Home
+										Accueil
 									</a>
 								</li>
 								<li className="nav-item">
 									<a href="#fact" className="nav-link-item">
-										Fact
+										Actualités
 									</a>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<a href="#features" className="nav-link-item">
-										Features
+										Caractéristiques
 									</a>
-								</li>
+								</li> */}
 								<li className="nav-item">
 									<a href="#faq" className="nav-link-item">
 										Faq
@@ -58,14 +58,15 @@ function Header() {
 								</li>
 								<li className="nav-item">
 									<a href="#testimonial" className="nav-link-item">
-										Testimonial
+										Témoignages
 									</a>
 								</li>
+
 							</ul>
 						</nav>
 					</div>
 					<HeaderButton />
-					<MobileNavbar menuItemsData={menuItemsData} title="Sofax" onePage={true} />
+					<MobileNavbar menuItemsData={menuItemsData} title="Ligh4Med" onePage={true} />
 				</nav>
 			</div>
 		</header>
